@@ -1,0 +1,103 @@
+{
+  "id": "naruse-yoshihisa",
+  "name": "成瀬善久",
+  "reading": "なるせ・よしひさ",
+  "eventTeam": "BLACK",
+  "eventNumber": 17,
+  "position": "投手",
+  "throwsBats": "左投左打",
+  "marinesTenure": "2004–2014",
+  "jerseyNumbers": [
+    {
+      "number": 60,
+      "period": "2004–2007",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 17,
+      "period": "2008–2014",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "左腕エースとして2000年代後半のローテーションを支えた投手。2007年には16勝1敗、防御率1.82を記録し、2010年は13勝を挙げて日本シリーズ第1戦の勝利投手となった。",
+  "careerStatsMarines": {
+    "games": 201,
+    "wins": 90,
+    "losses": 66,
+    "completeGames": 37,
+    "shutouts": 12,
+    "innings": "1379.2",
+    "strikeouts": 1100,
+    "era": "3.16"
+  },
+  "seasonStats": {
+    "2005": {
+      "status": "no_first_team_appearance",
+      "note": "球団には在籍していたが、一軍登板は2006年から。"
+    },
+    "2010": {
+      "games": 28,
+      "wins": 13,
+      "losses": 11,
+      "completeGames": 7,
+      "shutouts": 1,
+      "innings": "203.2",
+      "strikeouts": 192,
+      "era": "3.31"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "第1戦に先発し、6回2失点で勝利投手",
+        "第6戦にも先発"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "none_or_not_applicable",
+    "note": "投手のため選手応援歌は原則対象外。登場曲は別途必要なら追加。"
+  },
+  "links": {
+    "wikipedia": "https://ja.wikipedia.org/wiki/%E6%88%90%E7%80%AC%E5%96%84%E4%B9%85",
+    "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_17_naruse.webp",
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/11015119.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ",
+      "url": "https://npb.jp/nippons/2010/"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    }
+  ]
+}
