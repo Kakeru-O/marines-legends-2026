@@ -1,0 +1,87 @@
+{
+  "id": "kato-shohei",
+  "name": "加藤翔平",
+  "reading": "かとう・しょうへい",
+  "eventTeam": "BLACK",
+  "eventNumber": 65,
+  "position": "外野手",
+  "throwsBats": "右投両打",
+  "marinesTenure": "2013–2021",
+  "jerseyNumbers": [
+    {
+      "number": 65,
+      "period": "2013–2017",
+      "verification": "official_change_notice_supports_end"
+    },
+    {
+      "number": 10,
+      "period": "2018–2021",
+      "verification": "official_change_notice"
+    }
+  ],
+  "summary": "俊足と両打ちを武器に2013年からロッテの外野でプレー。プロ初打席となった2013年5月12日の楽天戦で、初球を右翼席へ運ぶ本塁打を放ったことで強い印象を残した。",
+  "careerStatsMarines": {
+    "games": 491,
+    "plateAppearances": 1346,
+    "atBats": 1231,
+    "hits": 303,
+    "homeRuns": 14,
+    "rbi": 83,
+    "stolenBases": 34,
+    "battingAverage": "0.246"
+  },
+  "seasonStats": {
+    "2005": {
+      "status": "not_in_pro_baseball"
+    },
+    "2010": {
+      "status": "not_in_pro_baseball"
+    }
+  },
+  "japanSeries": [],
+  "cheers": {
+    "type": "player_cheer",
+    "note": "ロッテでは2014年開幕から2021年6月の移籍まで同じ応援歌が使用された。",
+    "references": [
+      {
+        "label": "プロ野球応援歌まとめ 加藤翔平",
+        "url": "https://www.yakyu-ouen.net/katoh-shohei/"
+      },
+      {
+        "label": "カモメログ 歴代応援歌",
+        "url": "https://kamome26.com/supportersongs/past/"
+      },
+      {
+        "label": "YouTube 千葉ロッテ 加藤翔平応援歌",
+        "url": "https://www.youtube.com/watch?v=TXnbS1oy0EI"
+      }
+    ],
+    "variants": [
+      {
+        "period": "2014–2021",
+        "name": "ロッテ応援歌",
+        "usageNote": "2014年開幕から2021年6月まで使用",
+        "lyrics": ""
+      }
+    ]
+  },
+  "links": {
+    "wikipedia": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E8%97%A4%E7%BF%94%E5%B9%B3",
+    "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_65_katoh.webp",
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/91595137.html"
+    },
+    {
+      "label": "マリーンズ 背番号変更のお知らせ",
+      "url": "https://www.marines.co.jp/news/detail/00001791.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}
