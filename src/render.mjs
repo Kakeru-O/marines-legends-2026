@@ -59,7 +59,20 @@ function linkList(items) {
 
 function cheerSection(player) {
   if (!player.cheers) return "";
-  return `<section class="detail-section"><h4>応援歌</h4><div class="cheer-box"><p>${escapeHtml(player.cheers.note || "応援歌情報なし")}</p>${linkList(player.cheers.references || [])}</div></section>`;
+
+  const variants = (player.cheers.variants || []).map((variant) => {
+    const lyrics = String(variant.lyrics || "").trim();
+    return `<div class="cheer-variant">
+      <div class="cheer-variant__heading">
+        <strong>${escapeHtml(variant.name || "応援歌")}</strong>
+        ${variant.period ? `<span>${escapeHtml(variant.period)}</span>` : ""}
+      </div>
+      ${variant.usageNote ? `<p class="cheer-variant__note">${escapeHtml(variant.usageNote)}</p>` : ""}
+      ${lyrics ? `<p class="cheer-lyrics">${escapeHtml(lyrics)}</p>` : ""}
+    </div>`;
+  }).join("");
+
+  return `<section class="detail-section"><h4>応援歌</h4><div class="cheer-box"><p>${escapeHtml(player.cheers.note || "応援歌情報なし")}</p>${variants}${linkList(player.cheers.references || [])}</div></section>`;
 }
 
 function sourceSection(player) {
