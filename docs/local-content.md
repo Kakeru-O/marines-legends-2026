@@ -1,61 +1,39 @@
-# Local-only content
+# Content handling
 
-このプロジェクトでは、一般公開に適さない可能性のある素材をGit管理対象から分離します。
+このプロジェクトはPrivateリポジトリでの個人利用を前提とします。
 
-## Gitに入れないもの
+## Gitに保持するもの
 
-- 応援歌の歌詞全文
-- 球団・報道各社など第三者が権利を持つ写真のコピー
-- 個人利用のために保存した動画・音源
-- それらを埋め込んだ最終成果物
+- 選手プロフィール
+- 成績
+- 紹介文
+- 応援歌の使用時期・参考リンク
+- 個人利用用の応援歌歌詞
 
-以下のディレクトリは `.gitignore` の対象です。
-
-```text
-local-data/
-local-assets/
-dist/
-```
-
-## 想定構成
-
-```text
-local-data/
-└── cheers.private.json
-
-local-assets/
-└── players/
-    ├── watanabe-shunsuke.webp
-    └── ...
-
-dist/
-└── marines-legends.html
-```
-
-`data/players.json` には、公開情報として扱いやすい事実データ、自作の紹介文、参照URL、ローカル素材のキーだけを置きます。
-
-歌詞などのローカル専用データはビルド時にマージする想定です。
-
-
-## 応援歌歌詞の追加方法
-
-リポジトリ内の `examples/cheers.private.example.json` を参考に、ローカルで次のファイルを作成します。
-
-```text
-local-data/cheers.private.json
-```
-
-例:
+応援歌歌詞は各選手JSONの `cheers.variants[].lyrics` に直接保持できます。
 
 ```json
 {
-  "saburo": {
-    "lyrics": "ここに個人利用用の歌詞を記入",
-    "selectedVariant": "2002–2009"
+  "cheers": {
+    "variants": [
+      {
+        "period": "2014–2021",
+        "name": "ロッテ応援歌",
+        "lyrics": "個人利用用の歌詞"
+      }
+    ]
   }
 }
 ```
 
-`local-data/` はGit管理対象外です。ビルド時に `localContentKey` を使って `data/players.json` の `cheers` 情報へマージされ、生成された `dist/marines-legends.html` にのみ反映されます。
+## Gitに入れないもの
 
-応援歌が複数ある選手では、`selectedVariant` に使用したい時期を記録しておくと管理しやすくなります。
+- 第三者が権利を持つ写真ファイルのコピー
+- 動画・音源ファイル
+- 生成済みの `dist/` 成果物
+
+これらは必要に応じて `local-assets/` などで管理します。
+
+## Public化する場合
+
+このリポジトリを将来Publicに変更する場合は、応援歌歌詞・第三者素材などを公開してよいか改めて確認し、必要に応じて削除・差し替えを行います。
