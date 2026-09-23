@@ -204,20 +204,46 @@
       ],
       "cheers": {
         "type": "player_cheer",
-        "note": "複数時期の可能性あり。歌詞・動画URLは別途調査し、歌詞本文はlocal-data側で管理。",
+        "note": "ロッテ在籍中に複数の応援歌・歌詞変更版が使用された。2005年は2002–2009版、2010年は同曲の歌詞変更版、復帰後の2012–2016年は別の応援歌を使用。",
         "localContentKey": "saburo",
         "references": [
           {
-            "label": "応援歌まとめ",
-            "url": "https://www.yakyu-ouen.net/saburo/"
+            "label": "カモメログ 歴代応援歌",
+            "url": "https://kamome26.com/supportersongs/past/"
           },
           {
-            "label": "YouTube 応援歌メドレー",
-            "url": "https://www.youtube.com/watch?v=JTM1JngBeMI"
+            "label": "YouTube サブロー 2010 応援歌",
+            "url": "https://www.youtube.com/watch?v=96bIb8YP0KI"
           },
           {
-            "label": "応援歌制作背景の記事",
+            "label": "YouTube サブロー歴代応援歌メドレー",
+            "url": "https://www.youtube.com/watch?v=T0kX9zQ-v0A"
+          },
+          {
+            "label": "ベースボールチャンネル 応援歌制作背景",
             "url": "https://www.baseballchannel.jp/npb/135305/"
+          }
+        ],
+        "variants": [
+          {
+            "period": "2002–2009",
+            "name": "ロッテ応援歌（OFF WITH YOUR HAT!）",
+            "usageNote": "2005年シーズンに使用"
+          },
+          {
+            "period": "2010",
+            "name": "ロッテ応援歌（OFF WITH YOUR HAT!・歌詞変更版）",
+            "usageNote": "2010年シーズンに使用"
+          },
+          {
+            "period": "2011",
+            "name": "ロッテ応援歌（別曲）",
+            "usageNote": "2011年前半に使用"
+          },
+          {
+            "period": "2012–2016",
+            "name": "ロッテ復帰後応援歌",
+            "usageNote": "復帰後に使用"
           }
         ]
       },
@@ -321,16 +347,33 @@
       ],
       "cheers": {
         "type": "player_cheer",
-        "note": "古い応援歌を含め別途調査。歌詞本文はlocal-data側で管理。",
+        "note": "現役期間を通じて複数の応援パターンがあり、2000年前後〜2010年は『堀幸一系』として知られるリズムの応援が使用された。",
         "localContentKey": "hori-koichi",
         "references": [
           {
-            "label": "YouTube 堀幸一系応援歌",
-            "url": "https://www.youtube.com/watch?v=SIXww90kqwY"
+            "label": "カモメログ 歴代応援歌",
+            "url": "https://kamome26.com/supportersongs/past/"
           },
           {
-            "label": "歴代応援歌データベース",
-            "url": "https://kamome26.com/supportersongs/past/"
+            "label": "YouTube 元ロッテ『堀幸一系』応援歌",
+            "url": "https://www.youtube.com/watch?v=SIXww90kqwY"
+          }
+        ],
+        "variants": [
+          {
+            "period": "19??–1990",
+            "name": "初期応援歌",
+            "usageNote": "初期の応援歌"
+          },
+          {
+            "period": "1991–1999頃",
+            "name": "関東版 / 関西版",
+            "usageNote": "地域別に異なる歌詞の記録あり"
+          },
+          {
+            "period": "2000頃–2010",
+            "name": "堀幸一系応援",
+            "usageNote": "2005年シーズンを含む晩年に使用"
           }
         ]
       },
@@ -501,16 +544,27 @@
       "japanSeries": [],
       "cheers": {
         "type": "player_cheer",
-        "note": "応援歌と動画URLを別途調査。歌詞本文はlocal-data側で管理。",
+        "note": "ロッテでは2014年開幕から2021年6月の移籍まで同じ応援歌が使用された。",
         "localContentKey": "kato-shohei",
         "references": [
           {
-            "label": "応援歌まとめ",
-            "url": "https://ouenka-shu.com/syohei_kato_marines/"
+            "label": "プロ野球応援歌まとめ 加藤翔平",
+            "url": "https://www.yakyu-ouen.net/katoh-shohei/"
           },
           {
-            "label": "歴代応援歌まとめ",
-            "url": "https://www.yakyu-ouen.net/marines-old/"
+            "label": "カモメログ 歴代応援歌",
+            "url": "https://kamome26.com/supportersongs/past/"
+          },
+          {
+            "label": "YouTube 千葉ロッテ 加藤翔平応援歌",
+            "url": "https://www.youtube.com/watch?v=TXnbS1oy0EI"
+          }
+        ],
+        "variants": [
+          {
+            "period": "2014–2021",
+            "name": "ロッテ応援歌",
+            "usageNote": "2014年開幕から2021年6月まで使用"
           }
         ]
       },
