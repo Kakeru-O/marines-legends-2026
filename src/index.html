@@ -10,81 +10,60 @@
   </head>
   <body>
     <a class="skip-link" href="#players">選手一覧へ移動</a>
-
-    <header class="hero">
-      <div class="hero__inner">
+    <header class="site-header">
+      <div class="site-header__inner">
         <p class="eyebrow">SPECIAL GAME 2026 / PERSONAL GUIDE</p>
-        <h1><span>MARINES</span> LEGENDS</h1>
-        <p class="hero__lead">あの時代を知る人も、これから知る人も。<br>球場でひらく、5人の記憶。</p>
+        <h1>MARINES <span>LEGENDS</span></h1>
+        <p>球場でひらく、あの時代の選手名鑑。</p>
       </div>
     </header>
 
     <main>
-      <section class="controls" aria-labelledby="filter-title">
-        <div class="controls__inner">
-          <div class="controls__heading">
-            <div>
-              <p class="section-kicker">ROSTER</p>
-              <h2 id="filter-title">選手を探す</h2>
-            </div>
-            <p id="result-count" class="result-count" aria-live="polite"></p>
+      <section id="filter-panel" class="filters" aria-labelledby="filter-title" hidden>
+        <div class="filters__heading">
+          <h2 id="filter-title">選手を探す</h2>
+          <p id="result-count" aria-live="polite"></p>
+        </div>
+        <div class="filter-block">
+          <span class="filter-label" id="team-label">チーム</span>
+          <div class="button-row" role="group" aria-labelledby="team-label">
+            <button type="button" class="filter-button is-active" data-team-filter="ALL" aria-pressed="true">すべて</button>
+            <button type="button" class="filter-button" data-team-filter="WHITE" aria-pressed="false">WHITE</button>
+            <button type="button" class="filter-button" data-team-filter="BLACK" aria-pressed="false">BLACK</button>
           </div>
-
-          <div class="filter-group">
-            <span class="filter-label" id="team-label">チーム</span>
-            <div class="segmented" role="group" aria-labelledby="team-label">
-              <button type="button" class="filter-button is-active" data-team="ALL" aria-pressed="true">すべて</button>
-              <button type="button" class="filter-button" data-team="WHITE" aria-pressed="false"><span class="team-dot team-dot--white"></span>WHITE</button>
-              <button type="button" class="filter-button" data-team="BLACK" aria-pressed="false"><span class="team-dot team-dot--black"></span>BLACK</button>
-            </div>
-          </div>
-
-          <label class="search-field">
-            <span>選手名から検索</span>
-            <span class="search-field__input-wrap">
-              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
-              <input id="search" type="search" autocomplete="off" placeholder="名前・よみを入力">
-            </span>
-          </label>
-
-          <div class="filter-group">
-            <span class="filter-label" id="position-label">守備位置</span>
-            <div id="position-filters" class="position-filters" role="group" aria-labelledby="position-label"></div>
-          </div>
+        </div>
+        <label class="search-field">
+          <span class="filter-label">選手名から検索</span>
+          <input id="search" type="search" autocomplete="off" placeholder="名前・よみを入力">
+        </label>
+        <div class="filter-block">
+          <span class="filter-label" id="position-label">守備位置</span>
+          <div id="position-filters" class="button-row button-row--wrap" role="group" aria-labelledby="position-label"></div>
         </div>
       </section>
 
       <section class="roster" aria-labelledby="roster-title">
-        <div class="roster__heading">
+        <header class="roster__heading">
           <div>
-            <p class="section-kicker">PLAYERS</p>
+            <p class="eyebrow">PLAYERS</p>
             <h2 id="roster-title">出場選手</h2>
           </div>
-          <p class="roster__hint">カードをタップして詳しく見る</p>
-        </div>
-        <div id="players" class="player-grid" aria-busy="true"></div>
+          <p>選手をタップして詳細を表示</p>
+        </header>
+        <div id="players" class="player-list" aria-busy="true"><p class="loading-note">選手データを読み込んでいます。</p></div>
         <div id="empty-state" class="empty-state" hidden>
-          <p class="empty-state__mark" aria-hidden="true">0</p>
-          <h3>該当する選手がいません</h3>
-          <p>検索条件を変えてみてください。</p>
-          <button id="reset-filters" type="button" class="button button--dark">条件をリセット</button>
+          <p>該当する選手がいません。</p>
+          <button id="reset-filters" type="button">条件をリセット</button>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>PERSONAL GUIDE / 2026</p>
+      <p>MARINES LEGENDS 2026 / PERSONAL GUIDE</p>
       <p>選手情報は各出典をご確認ください。</p>
     </footer>
 
-    <dialog id="player-dialog" class="player-dialog" aria-labelledby="dialog-title">
-      <button id="dialog-close" type="button" class="dialog-close" aria-label="選手詳細を閉じる">
-        <span aria-hidden="true"></span>
-      </button>
-      <div id="dialog-content"></div>
-    </dialog>
-
     <script id="players-data" type="application/json"></script>
-    <script src="./app.js"></script>
+    <script type="module" src="./app.js"></script>
   </body>
 </html>
