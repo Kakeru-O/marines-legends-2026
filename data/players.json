@@ -3,7 +3,8 @@
   "notes": [
     "Base data only. Full cheer lyrics and copied third-party photos must not be committed here.",
     "Season and career stats are based primarily on NPB official records.",
-    "localContentKey is used to merge local-only lyrics/assets at build time."
+    "localContentKey is used to merge local-only lyrics/assets at build time.",
+    "The 2026 special-game page currently provides player images and event roster/number/team information; no player comment text was found in the page HTML as of 2026-09-23."
   ],
   "players": [
     {
@@ -83,7 +84,8 @@
       },
       "links": {
         "wikipedia": "https://ja.wikipedia.org/wiki/%E6%B8%A1%E8%BE%BA%E4%BF%8A%E4%BB%8B",
-        "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_31_watanabe.webp"
+        "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_31_watanabe.webp",
+        "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
       },
       "sources": [
         {
@@ -195,11 +197,26 @@
       "cheers": {
         "type": "player_cheer",
         "note": "複数時期の可能性あり。歌詞・動画URLは別途調査し、歌詞本文はlocal-data側で管理。",
-        "localContentKey": "saburo"
+        "localContentKey": "saburo",
+        "references": [
+          {
+            "label": "応援歌まとめ",
+            "url": "https://www.yakyu-ouen.net/saburo/"
+          },
+          {
+            "label": "YouTube 応援歌メドレー",
+            "url": "https://www.youtube.com/watch?v=JTM1JngBeMI"
+          },
+          {
+            "label": "応援歌制作背景の記事",
+            "url": "https://www.baseballchannel.jp/npb/135305/"
+          }
+        ]
       },
       "links": {
         "wikipedia": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%96%E3%83%AD%E3%83%BC",
-        "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_03_saburo.webp"
+        "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_03_saburo.webp",
+        "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
       },
       "sources": [
         {
@@ -286,11 +303,22 @@
       "cheers": {
         "type": "player_cheer",
         "note": "古い応援歌を含め別途調査。歌詞本文はlocal-data側で管理。",
-        "localContentKey": "hori-koichi"
+        "localContentKey": "hori-koichi",
+        "references": [
+          {
+            "label": "YouTube 堀幸一系応援歌",
+            "url": "https://www.youtube.com/watch?v=SIXww90kqwY"
+          },
+          {
+            "label": "歴代応援歌データベース",
+            "url": "https://kamome26.com/supportersongs/past/"
+          }
+        ]
       },
       "links": {
         "wikipedia": "https://ja.wikipedia.org/wiki/%E5%A0%80%E5%B9%B8%E4%B8%80",
-        "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_05_hori.webp"
+        "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_05_hori.webp",
+        "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
       },
       "sources": [
         {
@@ -377,7 +405,8 @@
       },
       "links": {
         "wikipedia": "https://ja.wikipedia.org/wiki/%E6%88%90%E7%80%AC%E5%96%84%E4%B9%85",
-        "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_17_naruse.webp"
+        "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_17_naruse.webp",
+        "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
       },
       "sources": [
         {
@@ -438,11 +467,22 @@
       "cheers": {
         "type": "player_cheer",
         "note": "応援歌と動画URLを別途調査。歌詞本文はlocal-data側で管理。",
-        "localContentKey": "kato-shohei"
+        "localContentKey": "kato-shohei",
+        "references": [
+          {
+            "label": "応援歌まとめ",
+            "url": "https://ouenka-shu.com/syohei_kato_marines/"
+          },
+          {
+            "label": "歴代応援歌まとめ",
+            "url": "https://www.yakyu-ouen.net/marines-old/"
+          }
+        ]
       },
       "links": {
         "wikipedia": "https://ja.wikipedia.org/wiki/%E5%8A%A0%E8%97%A4%E7%BF%94%E5%B9%B3",
-        "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_65_katoh.webp"
+        "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_65_katoh.webp",
+        "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
       },
       "sources": [
         {
