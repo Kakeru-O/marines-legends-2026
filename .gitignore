@@ -1,9 +1,7 @@
-# Local-only content (do not commit)
-local-data/
+# Local-only third-party assets
 local-assets/
-*.private.json
 
-# Generated local artifact may contain private/local-only content
+# Generated artifact
 dist/
 
 # OS / editor
