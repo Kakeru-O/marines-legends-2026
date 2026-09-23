@@ -1,0 +1,141 @@
+{
+  "id": "hori-koichi",
+  "name": "堀幸一",
+  "reading": "ほり・こういち",
+  "eventTeam": "WHITE",
+  "eventNumber": 5,
+  "position": "内野手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "1988–2010",
+  "jerseyNumbers": [
+    {
+      "number": 45,
+      "period": "1988–1989",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 5,
+      "period": "1990–2010",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "1988年の入団から2010年までロッテ一筋でプレーした内野手。2005年は打率.305を記録して二塁手のベストナインに選ばれ、31年ぶりの日本一を支えたベテラン。",
+  "careerStatsMarines": {
+    "games": 2064,
+    "plateAppearances": 7680,
+    "atBats": 6788,
+    "hits": 1827,
+    "homeRuns": 183,
+    "rbi": 810,
+    "stolenBases": 133,
+    "battingAverage": "0.269",
+    "onBasePercentage": "0.336",
+    "sluggingPercentage": "0.413"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 104,
+      "plateAppearances": 421,
+      "atBats": 380,
+      "hits": 116,
+      "homeRuns": 7,
+      "rbi": 46,
+      "stolenBases": 2,
+      "battingAverage": "0.305",
+      "onBasePercentage": "0.357",
+      "sluggingPercentage": "0.403"
+    },
+    "2010": {
+      "status": "no_first_team_appearance",
+      "note": "球団在籍最終年。一軍公式戦出場なし。"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "日本シリーズに出場",
+        "第3戦では3打数1安打1四球、2得点"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "note": "現役期間を通じて複数の応援パターンがあり、2000年前後〜2010年は『堀幸一系』として知られるリズムの応援が使用された。",
+    "references": [
+      {
+        "label": "カモメログ 歴代応援歌",
+        "url": "https://kamome26.com/supportersongs/past/"
+      },
+      {
+        "label": "YouTube 元ロッテ『堀幸一系』応援歌",
+        "url": "https://www.youtube.com/watch?v=SIXww90kqwY"
+      }
+    ],
+    "variants": [
+      {
+        "period": "19??–1990",
+        "name": "初期応援歌",
+        "usageNote": "初期の応援歌",
+        "lyrics": ""
+      },
+      {
+        "period": "1991–1999頃",
+        "name": "関東版 / 関西版",
+        "usageNote": "地域別に異なる歌詞の記録あり",
+        "lyrics": ""
+      },
+      {
+        "period": "2000頃–2010",
+        "name": "堀幸一系応援",
+        "usageNote": "2005年シーズンを含む晩年に使用",
+        "lyrics": ""
+      }
+    ]
+  },
+  "links": {
+    "wikipedia": "https://ja.wikipedia.org/wiki/%E5%A0%80%E5%B9%B8%E4%B8%80",
+    "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_05_hori.webp",
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/73873868.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ",
+      "url": "https://npb.jp/nippons/2005/"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "NPB 2005年 ベストナイン投票結果",
+      "url": "https://npb.jp/award/2005/voting_bt9.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_3.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1985–1989",
+      "url": "https://www.marines.co.jp/corp/past_roster/1985.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1990–1994",
+      "url": "https://www.marines.co.jp/corp/past_roster/1990.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    }
+  ]
+}
