@@ -25,7 +25,7 @@
 - スマホファースト
 - HTML / CSS / JavaScriptを基本とする
 - React等のフレームワークは、明確な必要性がない限り導入しない
-- 選手情報は `data/players.json` を正とする
+- 選手情報は `data/players/*.json` を正とする
 - 開発中はファイルを分割し、最終的に単一HTMLへビルドできる構成にする
 - PDF出力はブラウザ印刷を基本とする
 
@@ -38,7 +38,7 @@
 - 成績・タイトル・記録の整理
 - 紹介文の作成
 - 応援歌・動画リンク等のコンテンツ整理
-- `data/players.json` の内容作成
+- `data/players/*.json` の内容作成
 
 ### Codex
 
@@ -61,7 +61,9 @@ marines-legends-2026/
 ├── docs/
 │   └── product.md
 ├── data/
-│   └── players.json
+│   └── players/
+│       ├── watanabe-shunsuke.json
+│       └── ...
 ├── src/
 │   ├── index.html
 │   ├── style.css
@@ -73,7 +75,7 @@ marines-legends-2026/
 ## 開発の進め方
 
 1. 参加選手一覧を確定
-2. `players.json` のスキーマを決定
+2. `data/players/*.json` のスキーマを決定
 3. 代表選手3〜5人分のデータを作成
 4. そのデータでUIを実装
 5. 実機で見ながら掲載項目を調整
@@ -98,7 +100,7 @@ npm run build
 
 生成物は `dist/marines-legends.html` です。選手一覧と詳細はHTML標準の `<details>` / `<summary>` として埋め込まれるため、JavaScriptを実行しないスマートフォンのファイルプレビューでも開閉して読めます。JavaScriptが動くブラウザでは、追加機能として検索・TEAM・守備位置の絞り込みを利用できます。
 
-`local-data/cheers.private.json` が存在する場合は、`localContentKey` を使って応援歌のローカル専用データを生成物にだけマージします。
+応援歌の歌詞は各選手JSONの `cheers.variants[].lyrics` に直接保持できます。リポジトリはPrivate運用を前提とし、一般公開する場合は歌詞・第三者素材の扱いを改めて確認してください。
 
 テストは次を実行します。
 
