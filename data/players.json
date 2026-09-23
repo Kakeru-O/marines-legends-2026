@@ -23,7 +23,7 @@
           "verification": "confirmed_for_event_and_career_profile"
         }
       ],
-      "summary": "地面すれすれから投げ込む独特のアンダースローで、2005年と2010年の日本一をともに経験した先発投手。",
+      "summary": "地面すれすれから投げ込む独特のアンダースローで知られる先発投手。2005年は15勝4敗、防御率2.17で日本一に貢献し、日本シリーズでは第2戦を完封して優秀選手賞を受賞。2010年の日本シリーズでも第3戦の勝利投手となった。",
       "careerStatsMarines": {
         "games": 255,
         "wins": 87,
@@ -63,8 +63,8 @@
           "year": 2005,
           "champion": true,
           "highlights": [
-            "第2戦の勝利投手",
-            "シリーズ優秀選手賞"
+            "第2戦に先発し、阪神を相手に9回無失点の完封勝利",
+            "日本シリーズ優秀選手賞を受賞"
           ],
           "sourceStatus": "verified"
         },
@@ -72,7 +72,7 @@
           "year": 2010,
           "champion": true,
           "highlights": [
-            "第3戦の勝利投手"
+            "第3戦に先発し、8回1失点で勝利投手"
           ],
           "sourceStatus": "verified"
         }
@@ -107,6 +107,14 @@
         {
           "label": "マリーンズ スペシャルゲーム2026",
           "url": "https://www.marines.co.jp/event/2026/specialgame/"
+        },
+        {
+          "label": "NPB 2005日本シリーズ 第2戦",
+          "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_2.html"
+        },
+        {
+          "label": "NPB 2010日本シリーズ 第3戦",
+          "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_3.html"
         }
       ]
     },
@@ -137,7 +145,7 @@
           "verification": "needs_final_period_check"
         }
       ],
-      "summary": "2005年・2010年の両日本一を知る中軸打者。長くマリーンズ打線の中心を担った。",
+      "summary": "2005年と2010年、2度の日本一で中軸を担った外野手。2005年は打率.313、14本塁打を記録し、日本シリーズ第2戦では2ラン本塁打、シリーズ優秀選手賞を受賞。2010年も19本塁打を放ち、日本シリーズ第5戦で2ラン本塁打を記録した。",
       "careerStatsMarines": {
         "games": 1734,
         "plateAppearances": 5806,
@@ -179,8 +187,8 @@
           "year": 2005,
           "champion": true,
           "highlights": [
-            "第2戦で本塁打",
-            "シリーズ優秀選手賞"
+            "第2戦の6回に2ラン本塁打",
+            "日本シリーズ優秀選手賞を受賞"
           ],
           "sourceStatus": "verified"
         },
@@ -188,8 +196,8 @@
           "year": 2010,
           "champion": true,
           "highlights": [
-            "第5戦で2ラン本塁打",
-            "第7戦で犠牲フライによる打点"
+            "第5戦で5打数3安打2打点、2ラン本塁打",
+            "第7戦では初回に犠牲フライで打点"
           ],
           "sourceStatus": "verified"
         }
@@ -242,6 +250,14 @@
         {
           "label": "マリーンズ スペシャルゲーム2026",
           "url": "https://www.marines.co.jp/event/2026/specialgame/"
+        },
+        {
+          "label": "NPB 2010日本シリーズ 第5戦",
+          "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_5.html"
+        },
+        {
+          "label": "NPB 2010日本シリーズ 第7戦",
+          "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
         }
       ]
     },
@@ -261,7 +277,7 @@
           "verification": "partial_official_roster_verified"
         }
       ],
-      "summary": "長年ロッテ一筋で内野を支え、2005年には打率.305を記録して日本一に貢献したベテラン。",
+      "summary": "1988年の入団から2010年までロッテ一筋でプレーした内野手。2005年は打率.305を記録して二塁手のベストナインに選ばれ、31年ぶりの日本一を支えたベテラン。",
       "careerStatsMarines": {
         "games": 2064,
         "plateAppearances": 7680,
@@ -296,8 +312,11 @@
         {
           "year": 2005,
           "champion": true,
-          "highlights": [],
-          "sourceStatus": "series_detail_research_pending"
+          "highlights": [
+            "日本シリーズに出場",
+            "第3戦では3打数1安打1四球、2得点"
+          ],
+          "sourceStatus": "verified"
         }
       ],
       "cheers": {
@@ -336,6 +355,14 @@
         {
           "label": "マリーンズ スペシャルゲーム2026",
           "url": "https://www.marines.co.jp/event/2026/specialgame/"
+        },
+        {
+          "label": "NPB 2005年 ベストナイン投票結果",
+          "url": "https://npb.jp/award/2005/voting_bt9.html"
+        },
+        {
+          "label": "NPB 2005日本シリーズ 第3戦",
+          "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_3.html"
         }
       ]
     },
@@ -360,7 +387,7 @@
           "verification": "to_be_source_linked"
         }
       ],
-      "summary": "2007年に16勝1敗、防御率1.82の飛躍を遂げた左腕。2010年はエースとして日本一への道を支えた。",
+      "summary": "左腕エースとして2000年代後半のローテーションを支えた投手。2007年には16勝1敗、防御率1.82を記録し、2010年は13勝を挙げて日本シリーズ第1戦の勝利投手となった。",
       "careerStatsMarines": {
         "games": 201,
         "wins": 90,
@@ -392,8 +419,8 @@
           "year": 2010,
           "champion": true,
           "highlights": [
-            "第1戦の勝利投手",
-            "第6戦に先発"
+            "第1戦に先発し、6回2失点で勝利投手",
+            "第6戦にも先発"
           ],
           "sourceStatus": "verified"
         }
@@ -420,6 +447,14 @@
         {
           "label": "マリーンズ スペシャルゲーム2026",
           "url": "https://www.marines.co.jp/event/2026/specialgame/"
+        },
+        {
+          "label": "NPB 2010日本シリーズ 第1戦",
+          "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+        },
+        {
+          "label": "NPB 2010日本シリーズ 第6戦",
+          "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
         }
       ]
     },
@@ -444,7 +479,7 @@
           "verification": "official_change_notice"
         }
       ],
-      "summary": "俊足と両打ちを武器に外野でプレー。2013年の一軍初打席で初球本塁打を放ったことで知られる。",
+      "summary": "俊足と両打ちを武器に2013年からロッテの外野でプレー。プロ初打席となった2013年5月12日の楽天戦で、初球を右翼席へ運ぶ本塁打を放ったことで強い印象を残した。",
       "careerStatsMarines": {
         "games": 491,
         "plateAppearances": 1346,
