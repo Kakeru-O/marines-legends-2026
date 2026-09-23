@@ -1,0 +1,10 @@
+# Local-only content (do not commit)
+local-data/
+local-assets/
+*.private.json
+
+# Generated local artifact may contain private/local-only content
+dist/
+
+# OS / editor
+.DS_Store
