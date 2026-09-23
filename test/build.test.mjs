@@ -1,39 +1,61 @@
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
-import { readFile } from "node:fs/promises";
+import { readdir, readFile } from "node:fs/promises";
 import test from "node:test";
 import { resolve } from "node:path";
 import { matchesPlayer, normalizeSearchText } from "../src/player-filter.mjs";
 
 const root = resolve(import.meta.dirname, "..");
-const dataPath = resolve(root, "data/players.json");
+const playersDirectory = resolve(root, "data/players");
 
-async function build() {
-  const before = await readFile(dataPath, "utf8");
-  execFileSync(process.execPath, ["scripts/build.mjs"], { cwd: root });
-  const [output, after] = await Promise.all([
-    readFile(resolve(root, "dist/marines-legends.html"), "utf8"),
-    readFile(dataPath, "utf8")
-  ]);
-  assert.equal(after, before, "build must not modify data/players.json");
-  return { output, data: JSON.parse(after) };
+async function loadPlayers() {
+  const filenames = (await readdir(playersDirectory))
+    .filter((name) => name.endsWith(".json"))
+    .sort();
+  return Promise.all(
+    filenames.map((filename) =>
+      readFile(resolve(playersDirectory, filename), "utf8").then(JSON.parse)
+    )
+  );
 }
 
-test("single HTML contains five native player accordions and no dialog", async () => {
-  const { output, data } = await build();
+async function build() {
+  const before = await Promise.all(
+    (await readdir(playersDirectory))
+      .filter((name) => name.endsWith(".json"))
+      .sort()
+      .map(async (name) => [name, await readFile(resolve(playersDirectory, name), "utf8")])
+  );
+
+  execFileSync(process.execPath, ["scripts/build.mjs"], { cwd: root });
+
+  const after = await Promise.all(
+    before.map(async ([name]) => [name, await readFile(resolve(playersDirectory, name), "utf8")])
+  );
+  assert.deepEqual(after, before, "build must not modify player JSON files");
+
+  const [output, players] = await Promise.all([
+    readFile(resolve(root, "dist/marines-legends.html"), "utf8"),
+    loadPlayers()
+  ]);
+  return { output, players };
+}
+
+test("single HTML contains one native accordion per player and no dialog", async () => {
+  const { output, players } = await build();
   assert.doesNotMatch(output, /<link rel="stylesheet"/);
   assert.doesNotMatch(output, /<script[^>]+src=/);
   assert.doesNotMatch(output, /<dialog|showModal\(/);
   const renderedHtml = output.replace(/<script[\s\S]*?<\/script>/g, "");
-  assert.equal((renderedHtml.match(/<details class="player-entry"/g) || []).length, data.players.length);
-  assert.equal((renderedHtml.match(/<summary class="player-summary"/g) || []).length, data.players.length);
-  data.players.forEach((player) => assert.match(renderedHtml, new RegExp(player.name)));
+  assert.equal((renderedHtml.match(/<details class="player-entry"/g) || []).length, players.length);
+  assert.equal((renderedHtml.match(/<summary class="player-summary"/g) || []).length, players.length);
+  players.forEach((player) => assert.match(renderedHtml, new RegExp(player.name)));
 });
 
 test("essential player information remains after scripts are removed", async () => {
-  const { output, data } = await build();
+  const { output, players } = await build();
   const withoutScripts = output.replace(/<script[\s\S]*?<\/script>/g, "");
-  for (const player of data.players) {
+  for (const player of players) {
     assert.match(withoutScripts, new RegExp(player.name));
     assert.match(withoutScripts, new RegExp(player.reading));
     assert.match(withoutScripts, new RegExp(player.marinesTenure));
@@ -52,13 +74,13 @@ test("filters match team, position, name, and reading", () => {
 });
 
 test("UI source does not hardcode player names or the shared event link", async () => {
-  const [appSource, renderSource, dataSource] = await Promise.all([
+  const [appSource, renderSource, players] = await Promise.all([
     readFile(resolve(root, "src/app.js"), "utf8"),
     readFile(resolve(root, "src/render.mjs"), "utf8"),
-    readFile(dataPath, "utf8")
+    loadPlayers()
   ]);
   const source = `${appSource}\n${renderSource}`;
-  JSON.parse(dataSource).players.forEach((player) => assert.doesNotMatch(source, new RegExp(player.name)));
+  players.forEach((player) => assert.doesNotMatch(source, new RegExp(player.name)));
   assert.match(renderSource, /source\.url !== player\.links\?\.officialEventPage/);
   assert.doesNotMatch(renderSource, /スペシャルゲーム2026 公式ページ/);
 });
