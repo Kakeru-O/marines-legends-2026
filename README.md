@@ -96,7 +96,7 @@ python3 -m http.server 8000
 npm run build
 ```
 
-生成物は `dist/marines-legends.html` です。選手データとCSS・JavaScriptが埋め込まれるため、このファイルはローカルで直接開けます。`local-data/cheers.private.json` が存在する場合は、`localContentKey` を使って応援歌のローカル専用データを生成物にだけマージします。
+生成物は `dist/marines-legends.html` です。選手データとCSS・JavaScriptに加え、JavaScriptを実行しないスマートフォンのファイルプレビュー向けの静的一覧・詳細も埋め込まれるため、このファイルはローカルで直接開けます。`local-data/cheers.private.json` が存在する場合は、`localContentKey` を使って応援歌のローカル専用データを生成物にだけマージします。
 
 テストは次を実行します。
 

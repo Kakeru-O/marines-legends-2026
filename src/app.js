@@ -293,6 +293,7 @@
       state.players = Array.isArray(data.players) ? data.players : [];
       setupFilters();
       renderPlayers();
+      document.documentElement.classList.add("has-js");
     } catch (error) {
       console.error(error);
       const grid = $("#players");

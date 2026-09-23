@@ -17,6 +17,9 @@ test("single-file build embeds styles, scripts, and every player", async () => {
   assert.doesNotMatch(output, /<script src=/);
   assert.match(output, /<style>/);
   assert.match(output, /id="players-data"/);
+  assert.match(output, /class="static-details"/);
+  assert.equal((output.match(/class="player-card"/g) || []).length, sourceData.players.length);
+  assert.equal((output.match(/class="static-player"/g) || []).length, sourceData.players.length);
   sourceData.players.forEach((player) => assert.match(output, new RegExp(player.name)));
 });
 
