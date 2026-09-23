@@ -79,3 +79,27 @@ marines-legends-2026/
 5. 実機で見ながら掲載項目を調整
 6. 全選手分のコンテンツを追加
 7. 単一HTML化・PDF出力を調整
+
+## ローカルでの確認
+
+開発版はリポジトリ直下でローカルサーバーを起動して確認します。
+
+```sh
+python3 -m http.server 8000
+```
+
+ブラウザで `http://localhost:8000/src/` を開いてください。`file://` で開くとブラウザの制約によりJSONを読み込めません。
+
+単一HTMLを生成する場合は次を実行します（外部依存のインストールは不要です）。
+
+```sh
+npm run build
+```
+
+生成物は `dist/marines-legends.html` です。選手データとCSS・JavaScriptが埋め込まれるため、このファイルはローカルで直接開けます。`local-data/cheers.private.json` が存在する場合は、`localContentKey` を使って応援歌のローカル専用データを生成物にだけマージします。
+
+テストは次を実行します。
+
+```sh
+npm test
+```
