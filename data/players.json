@@ -136,13 +136,13 @@
         },
         {
           "number": 2,
-          "period": "1997–1999",
+          "period": "1997–2003",
           "verification": "official_past_roster"
         },
         {
           "number": 3,
-          "period": "2000–2011、2012–2016",
-          "verification": "needs_final_period_check"
+          "period": "2004–2011、2012–2016",
+          "verification": "official_past_roster_and_retirement_notice"
         }
       ],
       "summary": "2005年と2010年、2度の日本一で中軸を担った外野手。2005年は打率.313、14本塁打を記録し、日本シリーズ第2戦では2ラン本塁打、シリーズ優秀選手賞を受賞。2010年も19本塁打を放ち、日本シリーズ第5戦で2ラン本塁打を記録した。",
@@ -284,6 +284,18 @@
         {
           "label": "NPB 2010日本シリーズ 第7戦",
           "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+        },
+        {
+          "label": "マリーンズ 歴代所属選手 2000–2004",
+          "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+        },
+        {
+          "label": "マリーンズ 歴代所属選手 2005–2009",
+          "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+        },
+        {
+          "label": "サブロー選手 引退のお知らせ",
+          "url": "https://www.marines.co.jp/news/detail/17996.html"
         }
       ]
     },
@@ -298,9 +310,14 @@
       "marinesTenure": "1988–2010",
       "jerseyNumbers": [
         {
+          "number": 45,
+          "period": "1988–1989",
+          "verification": "official_past_roster"
+        },
+        {
           "number": 5,
-          "period": "主な現役期間・イベント時",
-          "verification": "partial_official_roster_verified"
+          "period": "1990–2010",
+          "verification": "official_past_roster"
         }
       ],
       "summary": "1988年の入団から2010年までロッテ一筋でプレーした内野手。2005年は打率.305を記録して二塁手のベストナインに選ばれ、31年ぶりの日本一を支えたベテラン。",
@@ -406,6 +423,18 @@
         {
           "label": "NPB 2005日本シリーズ 第3戦",
           "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_3.html"
+        },
+        {
+          "label": "マリーンズ 歴代所属選手 1985–1989",
+          "url": "https://www.marines.co.jp/corp/past_roster/1985.html"
+        },
+        {
+          "label": "マリーンズ 歴代所属選手 1990–1994",
+          "url": "https://www.marines.co.jp/corp/past_roster/1990.html"
+        },
+        {
+          "label": "マリーンズ 歴代所属選手 2010–2014",
+          "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
         }
       ]
     },
@@ -422,12 +451,12 @@
         {
           "number": 60,
           "period": "2004–2007",
-          "verification": "to_be_source_linked"
+          "verification": "official_past_roster"
         },
         {
           "number": 17,
           "period": "2008–2014",
-          "verification": "to_be_source_linked"
+          "verification": "official_past_roster"
         }
       ],
       "summary": "左腕エースとして2000年代後半のローテーションを支えた投手。2007年には16勝1敗、防御率1.82を記録し、2010年は13勝を挙げて日本シリーズ第1戦の勝利投手となった。",
@@ -498,6 +527,18 @@
         {
           "label": "NPB 2010日本シリーズ 第6戦",
           "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+        },
+        {
+          "label": "マリーンズ 歴代所属選手 2000–2004",
+          "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+        },
+        {
+          "label": "マリーンズ 歴代所属選手 2005–2009",
+          "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+        },
+        {
+          "label": "マリーンズ 歴代所属選手 2010–2014",
+          "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
         }
       ]
     },
