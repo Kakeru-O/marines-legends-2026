@@ -127,3 +127,11 @@ button:focus-visible, input:focus-visible, summary:focus-visible, a:focus-visibl
   .player-entry:not([open]) > .player-detail { display: block !important; }
   .summary-toggle { display: none; }
 }
+
+
+.cheer-variant { margin-top: 14px; padding-top: 14px; border-top: 1px solid #444; }
+.cheer-variant__heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; }
+.cheer-variant__heading strong { font-size: 0.82rem; }
+.cheer-variant__heading span { color: #b9b6ae; font-size: 0.68rem; }
+.cheer-variant__note { margin: 4px 0 0; color: #cfcac0; font-size: 0.72rem; }
+.cheer-lyrics { margin: 10px 0 0; padding: 11px 12px; background: #202020; border: 1px solid #3a3a3a; color: white; font-size: 0.8rem; line-height: 1.8; white-space: pre-line; }
