@@ -1,0 +1,184 @@
+{
+  "id": "saburo",
+  "name": "サブロー",
+  "fullName": "大村三郎",
+  "reading": "さぶろー（おおむら・さぶろう）",
+  "eventTeam": "WHITE",
+  "eventNumber": 3,
+  "position": "外野手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "1995–2011、2012–2016",
+  "jerseyNumbers": [
+    {
+      "number": 36,
+      "period": "1995–1996",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 2,
+      "period": "1997–2003",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 3,
+      "period": "2004–2011、2012–2016",
+      "verification": "official_past_roster_and_retirement_notice"
+    }
+  ],
+  "summary": "2005年と2010年、2度の日本一で中軸を担った外野手。2005年は打率.313、14本塁打を記録し、日本シリーズ第2戦では2ラン本塁打、シリーズ優秀選手賞を受賞。2010年も19本塁打を放ち、日本シリーズ第5戦で2ラン本塁打を記録した。",
+  "careerStatsMarines": {
+    "games": 1734,
+    "plateAppearances": 5806,
+    "atBats": 5040,
+    "hits": 1338,
+    "homeRuns": 126,
+    "rbi": 646,
+    "stolenBases": 78,
+    "battingAverage": "0.265"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 107,
+      "plateAppearances": 394,
+      "atBats": 351,
+      "hits": 110,
+      "homeRuns": 14,
+      "rbi": 50,
+      "stolenBases": 6,
+      "battingAverage": "0.313",
+      "onBasePercentage": "0.380",
+      "sluggingPercentage": "0.521"
+    },
+    "2010": {
+      "games": 125,
+      "plateAppearances": 513,
+      "atBats": 452,
+      "hits": 118,
+      "homeRuns": 19,
+      "rbi": 71,
+      "stolenBases": 2,
+      "battingAverage": "0.261",
+      "onBasePercentage": "0.344",
+      "sluggingPercentage": "0.429"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第2戦の6回に2ラン本塁打",
+        "日本シリーズ優秀選手賞を受賞"
+      ],
+      "sourceStatus": "verified"
+    },
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "第5戦で5打数3安打2打点、2ラン本塁打",
+        "第7戦では初回に犠牲フライで打点"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "note": "ロッテ在籍中に複数の応援歌・歌詞変更版が使用された。2005年は2002–2009版、2010年は同曲の歌詞変更版、復帰後の2012–2016年は別の応援歌を使用。",
+    "references": [
+      {
+        "label": "カモメログ 歴代応援歌",
+        "url": "https://kamome26.com/supportersongs/past/"
+      },
+      {
+        "label": "YouTube サブロー 2010 応援歌",
+        "url": "https://www.youtube.com/watch?v=96bIb8YP0KI"
+      },
+      {
+        "label": "YouTube サブロー歴代応援歌メドレー",
+        "url": "https://www.youtube.com/watch?v=T0kX9zQ-v0A"
+      },
+      {
+        "label": "ベースボールチャンネル 応援歌制作背景",
+        "url": "https://www.baseballchannel.jp/npb/135305/"
+      }
+    ],
+    "variants": [
+      {
+        "period": "2002–2009",
+        "name": "ロッテ応援歌（OFF WITH YOUR HAT!）",
+        "usageNote": "2005年シーズンに使用",
+        "lyrics": ""
+      },
+      {
+        "period": "2010",
+        "name": "ロッテ応援歌（OFF WITH YOUR HAT!・歌詞変更版）",
+        "usageNote": "2010年シーズンに使用",
+        "lyrics": ""
+      },
+      {
+        "period": "2011",
+        "name": "ロッテ応援歌（別曲）",
+        "usageNote": "2011年前半に使用",
+        "lyrics": ""
+      },
+      {
+        "period": "2012–2016",
+        "name": "ロッテ復帰後応援歌",
+        "usageNote": "復帰後に使用",
+        "lyrics": ""
+      }
+    ]
+  },
+  "links": {
+    "wikipedia": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%96%E3%83%AD%E3%83%BC",
+    "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_03_saburo.webp",
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/41143880.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ",
+      "url": "https://npb.jp/nippons/2005/"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 表彰選手",
+      "url": "https://npb.jp/nippons/2005/award.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ",
+      "url": "https://npb.jp/nippons/2010/"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第5戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_5.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "サブロー選手 引退のお知らせ",
+      "url": "https://www.marines.co.jp/news/detail/17996.html"
+    }
+  ]
+}
