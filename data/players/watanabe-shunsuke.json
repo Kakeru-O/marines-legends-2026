@@ -1,0 +1,110 @@
+{
+  "id": "watanabe-shunsuke",
+  "name": "渡辺俊介",
+  "reading": "わたなべ・しゅんすけ",
+  "eventTeam": "WHITE",
+  "eventNumber": 31,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2001–2013",
+  "jerseyNumbers": [
+    {
+      "number": 31,
+      "period": "ロッテ在籍時",
+      "verification": "confirmed_for_event_and_career_profile"
+    }
+  ],
+  "summary": "地面すれすれから投げ込む独特のアンダースローで知られる先発投手。2005年は15勝4敗、防御率2.17で日本一に貢献し、日本シリーズでは第2戦を完封して優秀選手賞を受賞。2010年の日本シリーズでも第3戦の勝利投手となった。",
+  "careerStatsMarines": {
+    "games": 255,
+    "wins": 87,
+    "losses": 82,
+    "saves": 0,
+    "holds": 1,
+    "completeGames": 42,
+    "shutouts": 8,
+    "innings": "1578.1",
+    "strikeouts": 846,
+    "era": "3.65"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 23,
+      "wins": 15,
+      "losses": 4,
+      "completeGames": 8,
+      "shutouts": 3,
+      "innings": "187.0",
+      "strikeouts": 101,
+      "era": "2.17"
+    },
+    "2010": {
+      "games": 26,
+      "wins": 8,
+      "losses": 8,
+      "completeGames": 3,
+      "shutouts": 0,
+      "innings": "148.1",
+      "strikeouts": 63,
+      "era": "4.49"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第2戦に先発し、阪神を相手に9回無失点の完封勝利",
+        "日本シリーズ優秀選手賞を受賞"
+      ],
+      "sourceStatus": "verified"
+    },
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "第3戦に先発し、8回1失点で勝利投手"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "none_or_not_applicable",
+    "note": "投手のため選手応援歌は原則対象外。登場曲は別途必要なら追加。"
+  },
+  "links": {
+    "wikipedia": "https://ja.wikipedia.org/wiki/%E6%B8%A1%E8%BE%BA%E4%BF%8A%E4%BB%8B",
+    "officialEventImage": "https://www.marines.co.jp/event/2026/specialgame/img/ph_player_31_watanabe.webp",
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/71675113.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ",
+      "url": "https://npb.jp/nippons/2005/"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 表彰選手",
+      "url": "https://npb.jp/nippons/2005/award.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ",
+      "url": "https://npb.jp/nippons/2010/"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_2.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_3.html"
+    }
+  ]
+}
