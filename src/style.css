@@ -25,7 +25,7 @@ a { color: inherit; }
 .eyebrow { margin: 0 0 7px; color: var(--red); font-size: 0.67rem; font-weight: 800; letter-spacing: 0.15em; }
 .site-header h1 { margin: 0; font: 900 clamp(2rem, 10vw, 4.5rem)/0.9 Arial Black, Impact, sans-serif; letter-spacing: -0.055em; }
 .site-header h1 span { color: transparent; -webkit-text-stroke: 1px white; }
-.site-header__inner > p:last-child { margin: 18px 0 0; color: #c8c5be; font-size: 0.85rem; }
+.official-event-link { display: inline-flex; align-items: center; min-height: 44px; margin-top: 18px; color: #d0cdc6; font-size: 0.875rem; text-underline-offset: 4px; }
 
 main { padding: 26px 0 64px; }
 .filters { margin-bottom: 30px; padding: 20px 16px; background: white; border: 1px solid var(--line); }
