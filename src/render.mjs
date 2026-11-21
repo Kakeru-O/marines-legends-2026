@@ -23,7 +23,7 @@ function representativeAchievement(player) {
 function statsGrid(stats) {
   const entries = Object.entries(stats || {}).filter(([key]) => !["status", "note"].includes(key));
   if (!entries.length) return stats?.note ? `<p class="detail-note">${escapeHtml(stats.note)}</p>` : "";
-  return `<dl class="stats-grid">${entries.map(([key, value]) => `<div class="stat"><dt>${escapeHtml(statLabels[key] || key)}</dt><dd>${escapeHtml(value)}</dd></div>`).join("")}</dl>`;
+  return `<dl class="stats-grid">${entries.map(([key, value]) => `<div class="stat"><dt>${escapeHtml(statLabels[key] || key)}</dt><dd>${escapeHtml(value)}</dd></div>`).join("")}</dl>${stats.note ? `<p class="detail-note">${escapeHtml(stats.note)}</p>` : ""}`;
 }
 
 function jerseyNumbers(player) {
@@ -51,28 +51,35 @@ function japanSeries(player) {
   }).join("")}</ul>`;
 }
 
+function safeUrl(value) {
+  try {
+    const url = new URL(value);
+    return ["https:", "http:"].includes(url.protocol) ? url.href : "";
+  } catch { return ""; }
+}
+
 function linkList(items) {
-  const unique = [...new Map(items.filter((item) => item?.url).map((item) => [item.url, item])).values()];
+  const unique = [...new Map(items.filter((item) => safeUrl(item?.url)).map((item) => [item.url, item])).values()];
   if (!unique.length) return "";
   return `<ul class="link-list">${unique.map((item) => `<li><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.label)}</a></li>`).join("")}</ul>`;
 }
 
 function cheerSection(player) {
   if (!player.cheers) return "";
-
   const variants = (player.cheers.variants || []).map((variant) => {
     const lyrics = String(variant.lyrics || "").trim();
+    const youtubeUrl = safeUrl(variant.youtubeUrl);
+    if (!lyrics && !youtubeUrl) return "";
     return `<div class="cheer-variant">
-      <div class="cheer-variant__heading">
-        <strong>${escapeHtml(variant.name || "応援歌")}</strong>
-        ${variant.period ? `<span>${escapeHtml(variant.period)}</span>` : ""}
-      </div>
+      <div class="cheer-variant__heading"><strong>${escapeHtml(variant.name || "応援歌")}</strong>${variant.period ? `<span>${escapeHtml(variant.period)}</span>` : ""}</div>
       ${variant.usageNote ? `<p class="cheer-variant__note">${escapeHtml(variant.usageNote)}</p>` : ""}
       ${lyrics ? `<p class="cheer-lyrics">${escapeHtml(lyrics)}</p>` : ""}
+      ${youtubeUrl ? linkList([{ label: "YouTubeで応援歌を見る", url: youtubeUrl }]) : ""}
     </div>`;
   }).join("");
-
-  return `<section class="detail-section"><h4>応援歌</h4><div class="cheer-box"><p>${escapeHtml(player.cheers.note || "応援歌情報なし")}</p>${variants}${linkList(player.cheers.references || [])}</div></section>`;
+  const references = linkList(player.cheers.references || []);
+  if (!variants && !references) return "";
+  return `<section class="detail-section"><h4>応援歌</h4><div class="cheer-box">${player.cheers.note ? `<p>${escapeHtml(player.cheers.note)}</p>` : ""}${variants}${references}</div></section>`;
 }
 
 function sourceSection(player) {
@@ -85,9 +92,6 @@ function sourceSection(player) {
 
 function playerEntry(player) {
   const searchText = [player.name, player.fullName, player.reading].filter(Boolean).join(" ");
-  const imageStyle = player.links?.officialEventImage
-    ? ` style="--player-image:url(&quot;${escapeHtml(player.links.officialEventImage)}&quot;)"`
-    : "";
   return `<details class="player-entry" data-team="${escapeHtml(player.eventTeam)}" data-position="${escapeHtml(player.position)}" data-search="${escapeHtml(searchText)}">
     <summary class="player-summary">
       <span class="player-summary__body">
@@ -97,7 +101,7 @@ function playerEntry(player) {
         <span class="player-summary__achievement">${escapeHtml(representativeAchievement(player))}</span>
         <span class="summary-toggle"><span class="summary-toggle__open">詳しく見る</span><span class="summary-toggle__close">閉じる</span><span aria-hidden="true">⌄</span></span>
       </span>
-      <span class="player-summary__media"${imageStyle}><span aria-hidden="true">${escapeHtml(player.eventNumber)}</span></span>
+      <span class="player-summary__media"><span aria-hidden="true">${escapeHtml(player.eventNumber)}</span></span>
     </summary>
     <div class="player-detail">
       <dl class="profile-facts">
