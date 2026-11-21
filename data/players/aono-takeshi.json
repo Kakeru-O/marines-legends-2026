@@ -1,0 +1,104 @@
+{
+  "id": "aono-takeshi",
+  "name": "青野毅",
+  "reading": "あおの・たけし",
+  "eventTeam": "WHITE",
+  "eventNumber": 58,
+  "position": "内野手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2001–2013",
+  "jerseyNumbers": [
+    {
+      "number": 58,
+      "period": "2001–2013",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "長打力を見せた右打ちの野手。2006年に6本塁打、2007年には10本塁打を放ち、2010年の日本シリーズにも代打で出場した。",
+  "careerStatsMarines": {
+    "games": 175,
+    "plateAppearances": 521,
+    "atBats": 474,
+    "hits": 117,
+    "homeRuns": 17,
+    "rbi": 58,
+    "stolenBases": 3,
+    "battingAverage": "0.247"
+  },
+  "seasonStats": {
+    "2005": {
+      "status": "no_first_team_appearance",
+      "note": "ロッテ在籍。一軍公式戦出場なし。"
+    },
+    "2010": {
+      "games": 14,
+      "plateAppearances": 20,
+      "atBats": 18,
+      "hits": 2,
+      "homeRuns": 1,
+      "rbi": 1,
+      "stolenBases": 0,
+      "battingAverage": "0.111"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "第2戦・第6戦に代打で出場"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "2007-2009",
+        "name": "",
+        "lyrics": "≪オオオ… Let’s Go 青野≫（×4） ≪（ﾄﾞﾝ ﾄﾞﾝ ﾄﾞﾄﾞﾝ）青野ヒット！≫（×4）",
+        "youtubeUrl": "https://youtu.be/UTcDWztlXT8?si=P9DpQFRQBs6ZQWIu"
+      },
+      {
+        "period": "2010-2013",
+        "name": "",
+        "lyrics": "お前の一振りで 打線に火をつけろ 爆発だ桜島\n 打て 青野毅 かっとばせー 青野！",
+        "youtubeUrl": "https://youtu.be/r_f1ZzCVnrs?t=361&si=711zOIwhqXvqjVMS"
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/71175113.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_2.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

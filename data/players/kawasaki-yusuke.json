@@ -1,0 +1,71 @@
+{
+  "id": "kawasaki-yusuke",
+  "name": "川崎雄介",
+  "reading": "かわさき・ゆうすけ",
+  "eventTeam": "WHITE",
+  "eventNumber": 49,
+  "position": "投手",
+  "throwsBats": "左投左打",
+  "marinesTenure": "2006–2010",
+  "jerseyNumbers": [
+    {
+      "number": 49,
+      "period": "2006–2007",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 12,
+      "period": "2008–2010",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "左の救援投手として活躍し、2007年は防御率1.65、2008年は65試合登板を記録。2008年には31ホールドポイントで最優秀中継ぎ投手に選ばれた。",
+  "careerStatsMarines": {
+    "games": 162,
+    "wins": 7,
+    "losses": 8,
+    "saves": 1,
+    "holds": 46,
+    "completeGames": 0,
+    "shutouts": 0,
+    "strikeouts": 112,
+    "innings": "163.0",
+    "era": "3.37",
+    "note": "NPB個人年度別成績のロッテ所属行を合算。投球回はアウト数で集計し、防御率は自責点から算出。ホールドは記録開始の2005年以降。"
+  },
+  "seasonStats": {
+    "2010": {
+      "status": "no_first_team_appearance",
+      "note": "4月に阪神へ移籍。ロッテでの一軍公式戦登板なし。"
+    }
+  },
+  "japanSeries": [],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/61565112.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "NPB 2008年 パ・リーグ表彰",
+      "url": "https://npb.jp/award/2008/pl.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "NPB 2010年度トレード公示（4月8日 阪神へ移籍）",
+      "url": "https://npb.jp/announcement/2010/pn_traded.html"
+    }
+  ]
+}

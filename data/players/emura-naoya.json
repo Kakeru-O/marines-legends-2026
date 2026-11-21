@@ -1,0 +1,66 @@
+{
+  "id": "emura-naoya",
+  "name": "江村直也",
+  "reading": "えむら・なおや",
+  "eventTeam": "BLACK",
+  "eventNumber": 53,
+  "position": "捕手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2011–2023",
+  "jerseyNumbers": [
+    {
+      "number": 53,
+      "period": "2011–2023",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "大阪桐蔭高から入団し、ロッテ一筋でプレーした捕手。初めて一軍に出場した2013年に64試合に出場するなど、捕手陣を支えた。",
+  "careerStatsMarines": {
+    "games": 243,
+    "plateAppearances": 311,
+    "atBats": 273,
+    "hits": 40,
+    "homeRuns": 1,
+    "rbi": 16,
+    "stolenBases": 1,
+    "battingAverage": "0.147"
+  },
+  "seasonStats": {},
+  "japanSeries": [],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "2013−2023",
+        "name": "",
+        "lyrics": "≪（演奏）オイ！≫（×3）\n闘魂たぎらせ燃えろよ江村\nかっとばせー 江村！",
+        "youtubeUrl": "https://youtu.be/AR9sz17lLvw?si=7-R_NLf8F0MeLCDc"
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/61365133.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2020–2024",
+      "url": "https://www.marines.co.jp/corp/past_roster/2020.html"
+    }
+  ]
+}

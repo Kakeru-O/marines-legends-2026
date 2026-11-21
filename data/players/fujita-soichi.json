@@ -1,0 +1,91 @@
+{
+  "id": "fujita-soichi",
+  "name": "藤田宗一",
+  "reading": "ふじた・そういち",
+  "eventTeam": "WHITE",
+  "eventNumber": 12,
+  "position": "投手",
+  "throwsBats": "左投左打",
+  "marinesTenure": "1998–2007",
+  "jerseyNumbers": [
+    {
+      "number": 12,
+      "period": "1998–2007",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "左の救援投手として、2005年は45試合に登板して24ホールドを記録。薮田安彦・小林雅英とともに終盤の継投を支え、日本シリーズでも2試合を無失点に抑えた。",
+  "careerStatsMarines": {
+    "games": 523,
+    "wins": 18,
+    "losses": 20,
+    "saves": 8,
+    "holds": 57,
+    "completeGames": 0,
+    "shutouts": 0,
+    "strikeouts": 327,
+    "innings": "398.1",
+    "era": "3.89",
+    "note": "NPB個人年度別成績のロッテ所属行を合算。投球回はアウト数で集計し、防御率は自責点から算出。ホールドは記録開始の2005年以降。"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 45,
+      "wins": 1,
+      "losses": 4,
+      "saves": 0,
+      "holds": 24,
+      "completeGames": 0,
+      "shutouts": 0,
+      "strikeouts": 31,
+      "innings": "38.2",
+      "era": "2.56"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第3戦・第4戦に救援登板し、計2回を無失点"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/01203886.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_3.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_4.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1995–1999",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

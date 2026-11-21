@@ -1,0 +1,73 @@
+{
+  "id": "futaki-kota",
+  "name": "二木康太",
+  "reading": "ふたき・こうた",
+  "eventTeam": "BLACK",
+  "eventNumber": 64,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2014–2025",
+  "jerseyNumbers": [
+    {
+      "number": 64,
+      "period": "2014–2019",
+      "verification": "official_past_roster_and_registration"
+    },
+    {
+      "number": 18,
+      "period": "2020–2025",
+      "verification": "official_past_roster_and_registration"
+    }
+  ],
+  "summary": "2010年代後半から先発陣を支えた右腕。2020年は15試合で自己最多の9勝を挙げ、防御率3.40を記録した。",
+  "careerStatsMarines": {
+    "games": 131,
+    "wins": 41,
+    "losses": 50,
+    "saves": 0,
+    "holds": 0,
+    "completeGames": 11,
+    "shutouts": 2,
+    "strikeouts": 615,
+    "innings": "752.0",
+    "era": "4.18"
+  },
+  "seasonStats": {},
+  "japanSeries": [],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/21225139.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2020–2024",
+      "url": "https://www.marines.co.jp/corp/past_roster/2020.html"
+    },
+    {
+      "label": "NPB プロ野球在籍者名簿",
+      "url": "https://npb.jp/history/register/index_hu.html"
+    },
+    {
+      "label": "NPB 2025年度 支配下選手登録",
+      "url": "https://npb.jp/announcement/2025/registered_m.html"
+    }
+  ]
+}

@@ -1,109 +1,56 @@
 # Marines Legends 2026
 
-千葉ロッテマリーンズ「スペシャルゲーム2026」を、最近ファンになった人でも楽しめるようにするための個人用デジタル選手名鑑です。
+2026年11月23日「マリーンズスペシャルゲーム2026」をスマホで楽しむための、球団非公式のOB選手名鑑です。GitHub Pagesとローカルの単一HTMLで閲覧できます。
 
-## 目的
+## 使い方・ビルド
 
-- 参加選手がどんな選手だったのかをスマホですぐ確認できる
-- 当時の主要成績や実績を見られる
-- 応援歌の歌詞を確認できる
-- 必要に応じてYouTube等の動画へ移動できる
-- 観戦当日にローカルで使える
-- 後からPDFとして保存・閲覧できる
-
-## 利用範囲
-
-このプロジェクトは個人利用を前提とします。
-
-- Web公開しない
-- GitHub Pages等へ一般公開しない
-- 最終成果物はローカルで開ける単一HTMLを基本とする
-- 応援歌歌詞など、公開利用に適さない可能性のあるコンテンツを含む
-
-## 開発方針
-
-- スマホファースト
-- HTML / CSS / JavaScriptを基本とする
-- React等のフレームワークは、明確な必要性がない限り導入しない
-- 選手情報は `data/players/*.json` を正とする
-- 開発中はファイルを分割し、最終的に単一HTMLへビルドできる構成にする
-- PDF出力はブラウザ印刷を基本とする
-
-## 役割分担
-
-### ChatGPT
-
-- 参加選手の調査
-- 選手プロフィールの整理
-- 成績・タイトル・記録の整理
-- 紹介文の作成
-- 応援歌・動画リンク等のコンテンツ整理
-- `data/players/*.json` の内容作成
-
-### Codex
-
-- UI / UX設計
-- HTML / CSS / JavaScript実装
-- 検索・絞り込み機能
-- レスポンシブ対応
-- 単一HTMLビルド
-- PDF向け印刷CSS
-- テスト
-
-Codexは、ユーザーから明示的な指示がない限り、選手情報・成績・紹介文・応援歌等のコンテンツを独自に追加・推測・変更しません。
-
-## 想定構成
-
-```text
-marines-legends-2026/
-├── README.md
-├── AGENTS.md
-├── docs/
-│   └── product.md
-├── data/
-│   └── players/
-│       ├── watanabe-shunsuke.json
-│       └── ...
-├── src/
-│   ├── index.html
-│   ├── style.css
-│   └── app.js
-└── dist/
-    └── marines-legends.html
-```
-
-## 開発の進め方
-
-1. 参加選手一覧を確定
-2. `data/players/*.json` のスキーマを決定
-3. 代表選手3〜5人分のデータを作成
-4. そのデータでUIを実装
-5. 実機で見ながら掲載項目を調整
-6. 全選手分のコンテンツを追加
-7. 単一HTML化・PDF出力を調整
-
-## ローカルでの確認
-
-開発版はリポジトリ直下でローカルサーバーを起動して確認します。
-
-```sh
-python3 -m http.server 8000
-```
-
-ブラウザで `http://localhost:8000/src/` を開いてください。`file://` で開くとブラウザの制約によりJSONを読み込めません。
-
-単一HTMLを生成する場合は次を実行します（外部依存のインストールは不要です）。
-
-```sh
-npm run build
-```
-
-生成物は `dist/marines-legends.html` です。選手一覧と詳細はHTML標準の `<details>` / `<summary>` として埋め込まれるため、JavaScriptを実行しないスマートフォンのファイルプレビューでも開閉して読めます。JavaScriptが動くブラウザでは、追加機能として検索・TEAM・守備位置の絞り込みを利用できます。
-
-応援歌の歌詞は各選手JSONの `cheers.variants[].lyrics` に直接保持できます。リポジトリはPrivate運用を前提とし、一般公開する場合は歌詞・第三者素材の扱いを改めて確認してください。
-
-テストは次を実行します。
+Node.js 22以上を使います。外部依存のインストールは不要です。
 
 ```sh
 npm test
+npm run build
 ```
+
+- `dist/index.html`: GitHub Pagesのトップページ
+- `dist/marines-legends.html`: 同一内容のオフライン向けファイル
+
+どちらもCSS・JavaScript・全選手データを埋め込んでいます。HTMLを直接開いて利用でき、JavaScriptが無効でも全選手の `<details>` / `<summary>` を開閉できます。JavaScript有効時は名前・読み検索、TEAM・守備位置フィルター、人数表示を利用できます。外部リンクだけは通信が必要です。PDFはブラウザ印刷を使います。
+
+開発中は `python3 -m http.server 8000` を実行し、`http://localhost:8000/src/` を開いてください（開発版のJSON読込みにはHTTPが必要）。完成版の確認はビルド後に `/dist/` を開きます。
+
+## データ
+
+```text
+data/
+├── players_list.json
+└── players/<player-id>.json
+```
+
+`players_list.json` のschemaVersionは1です。各entryの `id`、`file`、`eventTeam`、`eventNumber`、`position`、`order` が参加一覧の正本です。`order` は一意な正整数で、配列順・ファイル名順によらずこの昇順で表示します。背番号 `00` は文字列で保持します。個別JSON内のイベント情報は互換性のためのミラーであり、変更時はmanifestと揃えてください。
+
+プロフィール・成績・紹介文・日本シリーズ・出典の正本は個別JSONです。ビルド時に未登録JSON、欠落ファイル、id重複・不一致、イベント項目不一致、必須項目不足を検出します。ロッテ限定通算は他球団の数字を含めません。投球回の小数部はアウト数（.1 = 1/3回、.2 = 2/3回）です。
+
+参加リストの確認日・公式発表との差分・調査方針は [確認記録](docs/roster-verification.md) を参照してください。選手情報は球団公式・NPB公式など各JSONの `sources` に遡れます。内容はユーザーの明示依頼に沿って追加し、推測で補完しません。
+
+## 応援歌・写真
+
+野手には複数の応援歌を記録する `cheers.variants[]` を用意しています。現在の `lyrics` は空文字で、本文の調査・転載は行いません。`youtubeUrl` がある場合にだけ動画リンクを表示し、両方空のvariantは表示しません。既存の参考リンクは維持します。
+
+**将来 `lyrics` に入力した歌詞は、次回ビルドでPagesにも公開されます。** 公開可能な内容だけを入力してください。ローカル専用の分離機構はありません。
+
+第三者の写真はコピーせず、`officialEventImage` も画面へ直接埋め込みません。出典URLと画像表示を分け、独自の白黒デザインと背番号を使います。詳しくは [コンテンツ方針](docs/local-content.md) を参照してください。
+
+## GitHub Pages設定（ユーザー操作）
+
+`.github/workflows/pages.yml` はPRでtest/buildを行い、mainへのpushまたはmainでの手動実行でartifactをPagesへdeployします。設定・visibilityは自動変更しません。
+
+1. リポジトリの **Settings → Pages → Build and deployment → Source** を **GitHub Actions** に設定します。
+2. PRを確認してmainへマージします。必要に応じてActionsからworkflowを手動実行します。
+3. `github-pages` environmentに承認が必要なら、GitHubの画面でdeploymentを承認します。
+4. 成功後、`https://kakeru-o.github.io/marines-legends-2026/` を開きます。
+
+PrivateリポジトリのPages利用可否は契約プランに依存します。利用できない場合はプランまたは公開方針をユーザー側で判断してください。リポジトリのvisibilityはこの作業では変更しません。[GitHub公式: custom workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+
+野手の詳細には、歌詞・動画が未入力でも「応援歌」枠と「応援歌・動画は準備中です。」を表示します。入力後は同じ場所に歌詞とYouTubeリンクを表示します。通算成績の集計方法の注は画面に表示せず、調査記録・JSONに保持します。
+
+応援歌の `youtubeUrl` に通常のYouTube動画URLまたは `youtu.be` の共有URLを入れると、詳細内に動画プレーヤーを表示します（オンライン時のみ、自動再生なし）。埋め込みが許可されていない動画には「YouTubeで開く」リンクを利用できます。ローカルで動画を確認する場合は `python3 -m http.server 8000` を実行して `http://localhost:8000/dist/` を開いてください。HTMLファイルを直接開いた場合、YouTube側のリファラー要件により再生できないことがあります。

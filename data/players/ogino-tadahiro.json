@@ -1,0 +1,69 @@
+{
+  "id": "ogino-tadahiro",
+  "name": "荻野忠寛",
+  "reading": "おぎの・ただひろ",
+  "eventTeam": "BLACK",
+  "eventNumber": 0,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2007–2014",
+  "jerseyNumbers": [
+    {
+      "number": 0,
+      "period": "2007–2014",
+      "verification": "official_past_roster_and_registration"
+    }
+  ],
+  "summary": "救援陣を支えた右腕で、入団1年目の2007年から58試合に登板。2008年には抑えとして30セーブを挙げた。",
+  "careerStatsMarines": {
+    "games": 178,
+    "wins": 9,
+    "losses": 11,
+    "saves": 40,
+    "holds": 32,
+    "completeGames": 0,
+    "shutouts": 0,
+    "strikeouts": 120,
+    "innings": "172.1",
+    "era": "2.87"
+  },
+  "seasonStats": {
+    "2010": {
+      "status": "no_first_team_appearance",
+      "note": "ロッテに在籍していたが、2010年の一軍登板なし。"
+    }
+  },
+  "japanSeries": [],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/21525114.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "NPB プロ野球在籍者名簿",
+      "url": "https://npb.jp/history/register/index_o.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 全試合結果",
+      "url": "https://npb.jp/bis/scores/nipponseries/linescore2010.html"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "otani-tomohisa",
+  "name": "大谷智久",
+  "reading": "おおたに・ともひさ",
+  "eventTeam": "BLACK",
+  "eventNumber": 14,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2010–2020",
+  "jerseyNumbers": [
+    {
+      "number": 14,
+      "period": "2010–2020",
+      "verification": "official_past_roster_and_registration"
+    }
+  ],
+  "summary": "先発も救援も経験し、2010年代にはセットアッパーとしてブルペンを支えた右腕。2015年は56試合に登板して32ホールドを挙げ、ロッテで通算120ホールドを記録した。",
+  "careerStatsMarines": {
+    "games": 340,
+    "wins": 20,
+    "losses": 34,
+    "saves": 0,
+    "holds": 120,
+    "completeGames": 0,
+    "shutouts": 0,
+    "strikeouts": 332,
+    "innings": "515.1",
+    "era": "3.67"
+  },
+  "seasonStats": {
+    "2010": {
+      "games": 11,
+      "wins": 1,
+      "losses": 1,
+      "saves": 0,
+      "holds": 1,
+      "completeGames": 0,
+      "shutouts": 0,
+      "innings": "15.0",
+      "strikeouts": 5,
+      "era": "7.20"
+    }
+  },
+  "japanSeries": [],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/41345131.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2020–2024",
+      "url": "https://www.marines.co.jp/corp/past_roster/2020.html"
+    },
+    {
+      "label": "NPB プロ野球在籍者名簿",
+      "url": "https://npb.jp/history/register/index_o.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 全試合結果",
+      "url": "https://npb.jp/bis/scores/nipponseries/linescore2010.html"
+    }
+  ]
+}

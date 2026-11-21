@@ -3,20 +3,15 @@ import { execFileSync } from "node:child_process";
 import { readdir, readFile } from "node:fs/promises";
 import test from "node:test";
 import { resolve } from "node:path";
+import { loadPlayers as loadManifestPlayers, validateRoster } from "../scripts/load-players.mjs";
+import { renderPlayerGuideHtml } from "../src/render.mjs";
 import { matchesPlayer, normalizeSearchText } from "../src/player-filter.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const playersDirectory = resolve(root, "data/players");
 
 async function loadPlayers() {
-  const filenames = (await readdir(playersDirectory))
-    .filter((name) => name.endsWith(".json"))
-    .sort();
-  return Promise.all(
-    filenames.map((filename) =>
-      readFile(resolve(playersDirectory, filename), "utf8").then(JSON.parse)
-    )
-  );
+  return loadManifestPlayers(root);
 }
 
 async function build() {
@@ -83,4 +78,119 @@ test("UI source does not hardcode player names or the shared event link", async 
   players.forEach((player) => assert.doesNotMatch(source, new RegExp(player.name)));
   assert.match(renderSource, /source\.url !== player\.links\?\.officialEventPage/);
   assert.doesNotMatch(renderSource, /スペシャルゲーム2026 公式ページ/);
+});
+
+test("Pages entry is identical to the offline HTML and embeds no third-party image", async () => {
+  const { output } = await build();
+  assert.equal(await readFile(resolve(root, "dist/index.html"), "utf8"), output);
+  const markup = output.replace(/<script[\s\S]*?<\/script>/g, "");
+  assert.doesNotMatch(markup, /<img\b|--player-image|background-image/);
+});
+
+test("manifest loads all 44 players in official order and preserves 00", async () => {
+  const manifest = JSON.parse(await readFile(resolve(root, "data/players_list.json"), "utf8"));
+  const players = await loadPlayers();
+  assert.equal(players.length, 44);
+  assert.equal(players.filter(p => p.eventTeam === "WHITE").length, 21);
+  assert.equal(players.filter(p => p.eventTeam === "BLACK").length, 23);
+  assert.deepEqual(players.map(p => p.id), [...manifest.players].sort((a,b) => a.order-b.order).map(p => p.id));
+  assert.equal(players.find(p => p.name === "高濱卓也").eventNumber, "00");
+  for (const player of players) {
+    for (const variant of player.cheers?.variants || []) assert.equal(typeof variant.lyrics, "string");
+    for (const source of player.sources) assert.match(source.url, /^https?:\/\//);
+  }
+});
+
+test("manifest rejects missing, unlisted, duplicate and inconsistent data", () => {
+  const entry = { id: "example", file: "example.json", eventTeam: "WHITE", eventNumber: 0, position: "投手", order: 1 };
+  const profile = { id: "example", name: "テスト", reading: "てすと", throwsBats: "右投右打", marinesTenure: "2000–2001", summary: "テスト用", sources: [{ label: "source", url: "https://example.com" }], jerseyNumbers: [{ number: 0 }], careerStatsMarines: { games: 1 } };
+  const manifest = { schemaVersion: 1, players: [entry] };
+  const files = new Map([[entry.file, profile]]);
+  assert.equal(validateRoster(manifest, files).length, 1);
+  assert.throws(() => validateRoster(manifest, new Map()), /Missing player/);
+  assert.throws(() => validateRoster(manifest, new Map([...files, ["extra.json", profile]])), /Unlisted/);
+  assert.throws(() => validateRoster({ ...manifest, players: [entry, entry] }, files), /Duplicate id/);
+  assert.throws(() => validateRoster(manifest, new Map([[entry.file, { ...profile, id: "other" }]])), /ID mismatch/);
+  for (const [field, value] of [["eventTeam", "OTHER"], ["position", "野手"], ["eventNumber", ""]]) {
+    assert.throws(() => validateRoster({ ...manifest, players: [{ ...entry, [field]: value }] }, files), /Invalid event metadata/);
+  }
+  assert.throws(() => validateRoster(manifest, new Map([[entry.file, { ...profile, eventTeam: "BLACK" }]])), /eventTeam mismatch/);
+  assert.throws(() => validateRoster(manifest, new Map([[entry.file, { ...profile, name: "" }]])), /Missing name/);
+  assert.throws(() => validateRoster({ ...manifest, players: [{ ...entry, file: "../example.json" }] }, files), /Invalid\/duplicate file/);
+  const second = { ...entry, id: "second", file: "second.json" };
+  assert.throws(() => validateRoster({ ...manifest, players: [entry, second] }, new Map([...files, [second.file, { ...profile, id: second.id }]])), /Invalid\/duplicate order/);
+});
+
+test("empty cheer fields disappear and populated YouTube or lyrics render safely", () => {
+  const player = { cheers: { type: "player_cheer", variants: [{ name: "空の応援歌", lyrics: "", youtubeUrl: "" }] } };
+  const empty = renderPlayerGuideHtml([player]);
+  assert.match(empty, /<h4>応援歌<\/h4>/);
+  assert.match(empty, /応援歌・動画は準備中です。/);
+  assert.doesNotMatch(empty, /cheer-lyrics|cheer-variant|youtube/);
+  assert.doesNotMatch(renderPlayerGuideHtml([{ cheers: { type: "none_or_not_applicable" } }]), /<h4>応援歌/);
+  player.cheers.variants[0].youtubeUrl = "https://www.youtube.com/watch?v=M7lc1UVf-VE";
+  assert.match(renderPlayerGuideHtml([player]), /href="https:\/\/www.youtube.com\/watch\?v=M7lc1UVf-VE"/);
+  assert.doesNotMatch(renderPlayerGuideHtml([player]), /cheer-lyrics/);
+  player.cheers.variants[0] = { lyrics: "<script>テスト</script>\n次の行", youtubeUrl: "javascript:alert(1)" };
+  const populated = renderPlayerGuideHtml([player]);
+  assert.match(populated, /&lt;script&gt;テスト&lt;\/script&gt;/);
+  assert.doesNotMatch(populated, /javascript:|<script>/);
+});
+
+test("real roster filters combine TEAM, all four positions, name and reading", async () => {
+  const players = await loadPlayers();
+  const filter = (team, position, query = "") => players.filter(p => matchesPlayer({ team: p.eventTeam, position: p.position, search: `${p.name} ${p.reading}` }, { team, position, query: normalizeSearchText(query) }));
+  assert.equal(filter("WHITE", "すべて").length, 21);
+  assert.equal(filter("BLACK", "すべて").length, 23);
+  for (const team of ["WHITE", "BLACK"]) {
+    for (const position of ["投手", "捕手", "内野手", "外野手"]) assert.ok(filter(team, position).length);
+  }
+  const player = players[0];
+  assert.equal(filter(player.eventTeam, player.position, player.name)[0].id, player.id);
+  assert.equal(filter(player.eventTeam, player.position, player.reading)[0].id, player.id);
+  assert.equal(filter("ALL", "すべて", "該当しない選手").length, 0);
+});
+
+test("career calculation notes stay out of the page while season absence notes remain", () => {
+  const html = renderPlayerGuideHtml([{
+    careerStatsMarines: { games: 1, note: "集計方法の注" },
+    seasonStats: { 2005: { status: "no_first_team_appearance", note: "一軍登板なし" } }
+  }]);
+  assert.doesNotMatch(html, /集計方法の注/);
+  assert.match(html, /一軍登板なし/);
+});
+
+test("sources are collapsed, retaining overview links but omitting individual series games", () => {
+  const html = renderPlayerGuideHtml([{
+    sources: [
+      { label: "NPB 年度別成績", url: "https://npb.jp/bis/players/example.html" },
+      { label: "シリーズ第1戦", url: "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html" },
+      { label: "シリーズ概要", url: "https://npb.jp/nippons/2010/" }
+    ]
+  }]);
+  assert.match(html, /<details class="detail-section source-disclosure"><summary>外部リンク・出典<\/summary>/);
+  assert.match(html, /NPB 年度別成績/);
+  assert.match(html, /シリーズ概要/);
+  assert.doesNotMatch(html, /シリーズ第1戦|boxscore2010_1/);
+});
+
+test("YouTube embeds accept video URL forms and reject other hosts and invalid IDs", () => {
+  const render = (youtubeUrl) => renderPlayerGuideHtml([{ name: "テスト", cheers: { variants: [{ youtubeUrl }] } }]);
+  for (const url of [
+    "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+    "https://youtu.be/M7lc1UVf-VE?si=example",
+    "https://m.youtube.com/shorts/M7lc1UVf-VE",
+    "https://www.youtube.com/embed/M7lc1UVf-VE"
+  ]) {
+    const html = render(url);
+    assert.match(html, /<iframe class="cheer-video" src="https:\/\/www.youtube-nocookie.com\/embed\/M7lc1UVf-VE\?playsinline=1"/);
+    assert.match(html, /loading="lazy"/);
+    assert.match(html, /referrerpolicy="strict-origin-when-cross-origin"/);
+    assert.match(html, /allowfullscreen/);
+    assert.doesNotMatch(html, /autoplay=1/);
+  }
+  assert.match(render("https://youtu.be/M7lc1UVf-VE?t=1m30s"), /start=90/);
+  for (const url of ["", "javascript:alert(1)", "https://youtube.com.evil.example/watch?v=M7lc1UVf-VE", "https://youtu.be/invalid", "https://example.com/M7lc1UVf-VE"]) {
+    assert.doesNotMatch(render(url), /<iframe/);
+  }
 });

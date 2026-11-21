@@ -7,9 +7,15 @@ const $ = (selector, root = document) => root.querySelector(selector);
 async function loadData() {
   const embedded = $("#players-data").textContent.trim();
   if (embedded) return JSON.parse(embedded);
-  const response = await fetch("../data/players.json");
+  const response = await fetch("../data/players_list.json");
   if (!response.ok) throw new Error(`選手データを取得できませんでした (${response.status})`);
-  return response.json();
+  const manifest = await response.json();
+  const players = await Promise.all([...manifest.players].sort((a, b) => a.order - b.order).map(async (entry) => {
+    const playerResponse = await fetch(`../data/players/${entry.file}`);
+    if (!playerResponse.ok) throw new Error(`選手データを取得できませんでした (${entry.file})`);
+    return { ...await playerResponse.json(), eventTeam: entry.eventTeam, eventNumber: entry.eventNumber, position: entry.position };
+  }));
+  return { players };
 }
 
 function playerEntries() {

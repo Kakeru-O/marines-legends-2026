@@ -1,0 +1,91 @@
+{
+  "id": "hayasaka-keisuke",
+  "name": "早坂圭介",
+  "reading": "はやさか・けいすけ",
+  "eventTeam": "WHITE",
+  "eventNumber": 68,
+  "position": "内野手",
+  "throwsBats": "右投両打",
+  "marinesTenure": "2003–2015",
+  "jerseyNumbers": [
+    {
+      "number": 68,
+      "period": "2003–2015",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "両打ちと走力を持ち味にした野手で、2009年には103試合に出場して12盗塁を記録。2012年も68試合に出場し、チームを支えた。",
+  "careerStatsMarines": {
+    "games": 286,
+    "plateAppearances": 432,
+    "atBats": 383,
+    "hits": 75,
+    "homeRuns": 3,
+    "rbi": 26,
+    "stolenBases": 26,
+    "battingAverage": "0.196"
+  },
+  "seasonStats": {
+    "2005": {
+      "status": "no_first_team_appearance",
+      "note": "ロッテ在籍。一軍公式戦出場なし。"
+    },
+    "2010": {
+      "games": 16,
+      "plateAppearances": 29,
+      "atBats": 24,
+      "hits": 6,
+      "homeRuns": 0,
+      "rbi": 3,
+      "stolenBases": 3,
+      "battingAverage": "0.250"
+    }
+  },
+  "japanSeries": [],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "2003-2009",
+        "name": "",
+        "lyrics": "≪（演奏）オイ！≫（×3）\nオイ！ オイ！ オイオイ！\nかっとばせー 早坂！",
+        "youtubeUrl": ""
+      },
+      {
+        "period": "2010-2015",
+        "name": "",
+        "lyrics": "ラララ… ≪早坂Go!（演奏）≫（×3）早坂ぶっちぎれ",
+        "youtubeUrl": "https://youtu.be/eMJrxv42bCo?si=-KsDpvto9yOMrm5c"
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/51455117.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

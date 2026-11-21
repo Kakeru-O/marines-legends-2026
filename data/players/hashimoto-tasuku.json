@@ -1,0 +1,104 @@
+{
+  "id": "hashimoto-tasuku",
+  "name": "橋本将",
+  "reading": "はしもと・たすく",
+  "eventTeam": "WHITE",
+  "eventNumber": 33,
+  "position": "捕手",
+  "throwsBats": "右投左打",
+  "marinesTenure": "1995–2009",
+  "jerseyNumbers": [
+    {
+      "number": 60,
+      "period": "1995–1997",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 33,
+      "period": "1998–2009",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "左打ちの捕手で、2005年は72試合に出場し、里崎智也とともに捕手陣を支えた。2008年には打率.311、11本塁打を記録するなど、打撃でも存在感を示した。",
+  "careerStatsMarines": {
+    "games": 684,
+    "plateAppearances": 1981,
+    "atBats": 1700,
+    "hits": 396,
+    "homeRuns": 42,
+    "rbi": 216,
+    "stolenBases": 2,
+    "battingAverage": "0.233"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 72,
+      "plateAppearances": 255,
+      "atBats": 202,
+      "hits": 52,
+      "homeRuns": 7,
+      "rbi": 31,
+      "stolenBases": 1,
+      "battingAverage": "0.257"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第2戦・第4戦に捕手として先発",
+        "第3戦は代打で2点適時打を放った"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "（歌詞無し）かっとばせー 橋本！",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/91993880.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_2.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_3.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_4.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1995–1999",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

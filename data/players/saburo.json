@@ -84,7 +84,7 @@
   ],
   "cheers": {
     "type": "player_cheer",
-    "note": "ロッテ在籍中に複数の応援歌・歌詞変更版が使用された。2005年は2002–2009版、2010年は同曲の歌詞変更版、復帰後の2012–2016年は別の応援歌を使用。",
+    "note": "",
     "references": [
       {
         "label": "カモメログ 歴代応援歌",
@@ -107,26 +107,30 @@
       {
         "period": "2002–2009",
         "name": "ロッテ応援歌（OFF WITH YOUR HAT!）",
-        "usageNote": "2005年シーズンに使用",
-        "lyrics": ""
+        "usageNote": "",
+        "lyrics": "（演奏） オオオ Let’s Go! サブロー ラララ…かっとばせー サブロー！",
+        "youtubeUrl": "https://youtu.be/taLHkbklKyY?si=jXAHtwvbFblgN4bT"
       },
       {
         "period": "2010",
         "name": "ロッテ応援歌（OFF WITH YOUR HAT!・歌詞変更版）",
         "usageNote": "2010年シーズンに使用",
-        "lyrics": ""
+        "lyrics": "大空キャンバスにして オオオ Let’s Go! サブロー！\n栄光のアーチ描け 飛ばせスタンドへ\nかっとばせー サブロー！",
+        "youtubeUrl": ""
       },
       {
         "period": "2011",
         "name": "ロッテ応援歌（別曲）",
         "usageNote": "2011年前半に使用",
-        "lyrics": ""
+        "lyrics": "ボールひきつけて 飛ばせ大空へ\n打てサブロー 燃え上がれ 魅せろよ一撃を\nかっとばせー サブロー！\n【2ループ目以降ここから開始】\n≪サブロー Let’s Go!≫（×2）\nみんなの想い乗せて 見せろよ一撃を\nかっとばせー サブロー！",
+        "youtubeUrl": ""
       },
       {
         "period": "2012–2016",
         "name": "ロッテ復帰後応援歌",
         "usageNote": "復帰後に使用",
-        "lyrics": ""
+        "lyrics": "サブロー さあ立ち上がれ今こそ 愛するチームのため\n待っていたんだ その戦う姿を 輝けサブロー\n≪（ﾄﾞﾝ ﾄﾞﾄﾞﾝ ﾄﾞﾄﾞﾝ）サブローヒット！≫（×4）",
+        "youtubeUrl": ""
       }
     ]
   },

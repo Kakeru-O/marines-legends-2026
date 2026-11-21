@@ -1,0 +1,113 @@
+{
+  "id": "watanabe-masato",
+  "name": "渡辺正人",
+  "reading": "わたなべ・まさと",
+  "eventTeam": "WHITE",
+  "eventNumber": 40,
+  "position": "内野手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "1998–2012",
+  "jerseyNumbers": [
+    {
+      "number": 3,
+      "period": "1998–1999",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 40,
+      "period": "2000–2012",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "1998年入団の内野手で、2003年には104試合に出場して7本塁打を記録。2005年の日本シリーズ第1戦では二塁で先発し、安打と得点を記録した。",
+  "careerStatsMarines": {
+    "games": 492,
+    "plateAppearances": 776,
+    "atBats": 677,
+    "hits": 140,
+    "homeRuns": 11,
+    "rbi": 71,
+    "stolenBases": 4,
+    "battingAverage": "0.207"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 20,
+      "plateAppearances": 14,
+      "atBats": 13,
+      "hits": 3,
+      "homeRuns": 0,
+      "rbi": 4,
+      "stolenBases": 0,
+      "battingAverage": "0.231"
+    },
+    "2010": {
+      "games": 9,
+      "plateAppearances": 8,
+      "atBats": 6,
+      "hits": 1,
+      "homeRuns": 0,
+      "rbi": 0,
+      "stolenBases": 0,
+      "battingAverage": "0.167"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第1戦に二塁手として先発し、3打数1安打1得点"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "2010-2012",
+        "name": "",
+        "lyrics": "あふれる歓声 心に感じながら\n正人の力出し切れ 今その時\nかっとばせー 正人！",
+        "youtubeUrl": "https://youtu.be/MSE0lIojG-k?si=78jqIdIJaH1AL8zY"
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/81483886.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_1.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_2.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1995–1999",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

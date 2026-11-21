@@ -1,0 +1,64 @@
+{
+  "id": "mima-manabu",
+  "name": "美馬学",
+  "reading": "みま・まなぶ",
+  "eventTeam": "BLACK",
+  "eventNumber": 15,
+  "position": "投手",
+  "throwsBats": "右投左打",
+  "marinesTenure": "2020–2025",
+  "jerseyNumbers": [
+    {
+      "number": 15,
+      "period": "2020–2025",
+      "verification": "official_past_roster_and_registration"
+    }
+  ],
+  "summary": "楽天から移籍し、ロッテでも先発ローテーションを支えた右腕。移籍初年度の2020年と2022年にそれぞれ10勝を挙げた。楽天時代の2013年には日本シリーズMVP（最高殊勲選手賞）を受賞した。",
+  "careerStatsMarines": {
+    "games": 82,
+    "wins": 29,
+    "losses": 28,
+    "saves": 0,
+    "holds": 0,
+    "completeGames": 2,
+    "shutouts": 1,
+    "strikeouts": 342,
+    "innings": "468.0",
+    "era": "4.19"
+  },
+  "seasonStats": {},
+  "japanSeries": [],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/01605133.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2020–2024",
+      "url": "https://www.marines.co.jp/corp/past_roster/2020.html"
+    },
+    {
+      "label": "NPB プロ野球在籍者名簿",
+      "url": "https://npb.jp/history/register/index_mi.html"
+    },
+    {
+      "label": "NPB 2013日本シリーズ 表彰選手（楽天所属時）",
+      "url": "https://npb.jp/nippons/2013/award.html"
+    },
+    {
+      "label": "NPB 2025年度 支配下選手登録",
+      "url": "https://npb.jp/announcement/2025/registered_m.html"
+    }
+  ]
+}

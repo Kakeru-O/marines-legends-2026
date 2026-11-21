@@ -1,0 +1,162 @@
+{
+  "id": "satozaki-tomoya",
+  "name": "里崎智也",
+  "reading": "さとざき・ともや",
+  "eventTeam": "BLACK",
+  "eventNumber": 22,
+  "position": "捕手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "1999–2014",
+  "jerseyNumbers": [
+    {
+      "number": 22,
+      "period": "1999–2014",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "2005年と2010年の日本一を捕手として支えた、長打力のある右打者。2005年の日本シリーズ第1戦では3ラン本塁打を放ち、2010年第7戦でも2打点を挙げた。",
+  "careerStatsMarines": {
+    "games": 1089,
+    "plateAppearances": 3998,
+    "atBats": 3476,
+    "hits": 890,
+    "homeRuns": 108,
+    "rbi": 458,
+    "stolenBases": 6,
+    "battingAverage": "0.256"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 94,
+      "plateAppearances": 333,
+      "atBats": 297,
+      "hits": 90,
+      "homeRuns": 10,
+      "rbi": 52,
+      "stolenBases": 1,
+      "battingAverage": "0.303",
+      "onBasePercentage": "0.361",
+      "sluggingPercentage": "0.481"
+    },
+    "2010": {
+      "games": 78,
+      "plateAppearances": 295,
+      "atBats": 247,
+      "hits": 65,
+      "homeRuns": 10,
+      "rbi": 29,
+      "stolenBases": 1,
+      "battingAverage": "0.263",
+      "onBasePercentage": "0.375",
+      "sluggingPercentage": "0.425"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第1戦の7回に3ラン本塁打を放ち、3打点"
+      ],
+      "sourceStatus": "verified"
+    },
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "第7戦で6打数2安打2打点。4回に適時二塁打、5回に適時打"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "2004-2009",
+        "name": "",
+        "lyrics": "[前奏] （演奏）（歌詞無し）かっとばせー 里崎！",
+        "youtubeUrl": ""
+      },
+      {
+        "period": "2010-2014",
+        "name": "",
+        "lyrics": "歓声の渦巻いて 大きくほうり込め\n歌え！踊れ！打ちまくれ！ いざゆけ里崎\nかっとばせー 里崎！",
+        "youtubeUrl": "https://youtu.be/MFcoZ42wnak?si=MBDGsdAP9UAlL2qa"
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/31733888.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1995–1999",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_1.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_2.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_3.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_2.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_3.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第5戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_5.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    }
+  ]
+}

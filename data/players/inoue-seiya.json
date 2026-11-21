@@ -1,0 +1,66 @@
+{
+  "id": "inoue-seiya",
+  "name": "井上晴哉",
+  "reading": "いのうえ・せいや",
+  "eventTeam": "BLACK",
+  "eventNumber": 44,
+  "position": "内野手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2014–2024",
+  "jerseyNumbers": [
+    {
+      "number": 44,
+      "period": "2014–2024",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "長打力で打線を支えた右打ちの一塁手。2018年は打率.292、24本塁打、99打点を記録し、翌2019年も24本塁打を放った。",
+  "careerStatsMarines": {
+    "games": 601,
+    "plateAppearances": 2237,
+    "atBats": 1944,
+    "hits": 486,
+    "homeRuns": 76,
+    "rbi": 313,
+    "stolenBases": 2,
+    "battingAverage": "0.250"
+  },
+  "seasonStats": {},
+  "japanSeries": [],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "2018-2024",
+        "name": "",
+        "lyrics": "ラララ井上晴哉 ラララホームラン 井上晴哉\n打てよ今ここで ラララ… 井上晴哉\n≪（ﾄﾞﾄﾞﾝ ﾄﾞﾄﾞﾝ ﾄﾞﾝ）井上晴哉！≫（×4）",
+        "youtubeUrl": "https://youtu.be/lIaOso-0D80?si=-BC9ws7HzncAncUL"
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/11315139.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2020–2024",
+      "url": "https://www.marines.co.jp/corp/past_roster/2020.html"
+    }
+  ]
+}
