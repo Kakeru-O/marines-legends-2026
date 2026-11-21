@@ -1,5 +1,7 @@
 # Marines Legends 2026
 
+**[公開サイトを開く — MARINES LEGENDS 2026](https://kakeru-o.github.io/marines-legends-2026/)**
+
 2026年11月23日「マリーンズスペシャルゲーム2026」をスマホで楽しむための、球団非公式のOB選手名鑑です。GitHub Pagesとローカルの単一HTMLで閲覧できます。
 
 ## 使い方・ビルド
