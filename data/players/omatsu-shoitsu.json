@@ -1,0 +1,132 @@
+{
+  "id": "omatsu-shoitsu",
+  "name": "大松尚逸",
+  "reading": "おおまつ・しょういつ",
+  "eventTeam": "BLACK",
+  "eventNumber": 10,
+  "position": "外野手",
+  "throwsBats": "左投左打",
+  "marinesTenure": "2005–2016",
+  "jerseyNumbers": [
+    {
+      "number": 10,
+      "period": "2005–2016",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "左の長距離打者として活躍し、2008年には24本塁打、91打点を記録。2010年も142試合に出場して16本塁打を放ち、日本シリーズ第1戦では先制の適時二塁打を打った。",
+  "careerStatsMarines": {
+    "games": 811,
+    "plateAppearances": 2779,
+    "atBats": 2524,
+    "hits": 629,
+    "homeRuns": 81,
+    "rbi": 351,
+    "stolenBases": 3,
+    "battingAverage": "0.249"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 3,
+      "plateAppearances": 8,
+      "atBats": 7,
+      "hits": 1,
+      "homeRuns": 0,
+      "rbi": 0,
+      "stolenBases": 0,
+      "battingAverage": "0.143",
+      "onBasePercentage": "0.250",
+      "sluggingPercentage": "0.143"
+    },
+    "2010": {
+      "games": 142,
+      "plateAppearances": 603,
+      "atBats": 534,
+      "hits": 139,
+      "homeRuns": 16,
+      "rbi": 68,
+      "stolenBases": 0,
+      "battingAverage": "0.260",
+      "onBasePercentage": "0.339",
+      "sluggingPercentage": "0.403"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "第1戦の2回に先制の適時二塁打を放ち、1打点"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/71375110.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_2.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_3.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第5戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_5.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    },
+    {
+      "label": "球団公式 2026年11月4日追加参加選手発表",
+      "url": "https://www.marines.co.jp/news/detail/202600948122.html"
+    }
+  ]
+}

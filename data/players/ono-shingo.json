@@ -1,0 +1,141 @@
+{
+  "id": "ono-shingo",
+  "name": "小野晋吾",
+  "reading": "おの・しんご",
+  "eventTeam": "WHITE",
+  "eventNumber": 29,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "1994–2013",
+  "jerseyNumbers": [
+    {
+      "number": 63,
+      "period": "1994–2000",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 29,
+      "period": "2001–2013",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "長く先発陣を支え、2000年に13勝、2005年にも10勝を挙げた右腕。2005年・2010年の日本シリーズでは救援に回り、2010年第6戦では延長戦で2回1/3を無失点に抑えた。",
+  "careerStatsMarines": {
+    "games": 293,
+    "wins": 85,
+    "losses": 77,
+    "saves": 0,
+    "holds": 10,
+    "completeGames": 20,
+    "shutouts": 3,
+    "strikeouts": 763,
+    "innings": "1425.0",
+    "era": "3.68",
+    "note": "NPB個人年度別成績のロッテ所属行を合算。投球回はアウト数で集計し、防御率は自責点から算出。ホールドは記録開始の2005年以降。"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 24,
+      "wins": 10,
+      "losses": 4,
+      "saves": 0,
+      "holds": 2,
+      "completeGames": 2,
+      "shutouts": 0,
+      "strikeouts": 55,
+      "innings": "112.0",
+      "era": "2.81"
+    },
+    "2010": {
+      "games": 27,
+      "wins": 5,
+      "losses": 4,
+      "saves": 0,
+      "holds": 8,
+      "completeGames": 0,
+      "shutouts": 0,
+      "strikeouts": 37,
+      "innings": "59.0",
+      "era": "3.97"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第3戦・第4戦に救援登板し、計1回2/3を無失点"
+      ],
+      "sourceStatus": "verified"
+    },
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "4試合に救援登板",
+        "第6戦の延長戦で2回1/3を無失点に抑えた"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/71373889.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_3.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_2.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1990–1994",
+      "url": "https://www.marines.co.jp/corp/past_roster/1990.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1995–1999",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

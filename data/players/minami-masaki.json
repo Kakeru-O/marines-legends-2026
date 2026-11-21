@@ -1,0 +1,64 @@
+{
+  "id": "minami-masaki",
+  "name": "南昌輝",
+  "reading": "みなみ・まさき",
+  "eventTeam": "BLACK",
+  "eventNumber": 33,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2011–2021",
+  "jerseyNumbers": [
+    {
+      "number": 33,
+      "period": "2011–2021",
+      "verification": "official_past_roster_and_registration"
+    }
+  ],
+  "summary": "中継ぎとしてブルペンを支えた右腕。2016年には自己最多の57試合に登板し、5勝・16ホールド、防御率2.74を記録した。",
+  "careerStatsMarines": {
+    "games": 190,
+    "wins": 11,
+    "losses": 8,
+    "saves": 0,
+    "holds": 37,
+    "completeGames": 0,
+    "shutouts": 0,
+    "strikeouts": 183,
+    "innings": "203.1",
+    "era": "3.59"
+  },
+  "seasonStats": {},
+  "japanSeries": [],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/91695133.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2020–2024",
+      "url": "https://www.marines.co.jp/corp/past_roster/2020.html"
+    },
+    {
+      "label": "NPB プロ野球在籍者名簿",
+      "url": "https://npb.jp/history/register/index_mi.html"
+    }
+  ]
+}

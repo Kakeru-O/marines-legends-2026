@@ -1,0 +1,82 @@
+{
+  "id": "matsunaga-takahiro",
+  "name": "松永昂大",
+  "reading": "まつなが・たかひろ",
+  "eventTeam": "BLACK",
+  "eventNumber": 28,
+  "position": "投手",
+  "throwsBats": "左投左打",
+  "marinesTenure": "2013–2022",
+  "jerseyNumbers": [
+    {
+      "number": 28,
+      "period": "2013–2021",
+      "verification": "official_past_roster_and_registration"
+    },
+    {
+      "number": 138,
+      "period": "2022（育成契約、7月29日まで）",
+      "verification": "official_past_roster_and_registration"
+    },
+    {
+      "number": 28,
+      "period": "2022（7月30日支配下復帰後）",
+      "verification": "official_past_roster_and_registration"
+    }
+  ],
+  "summary": "2010年代の救援陣を支えた左腕。新人の2013年から58試合に登板して28ホールドを挙げ、ロッテで通算135ホールドを記録した。",
+  "careerStatsMarines": {
+    "games": 359,
+    "wins": 16,
+    "losses": 15,
+    "saves": 1,
+    "holds": 135,
+    "completeGames": 0,
+    "shutouts": 0,
+    "strikeouts": 238,
+    "innings": "300.1",
+    "era": "2.91"
+  },
+  "seasonStats": {},
+  "japanSeries": [],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/01205137.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2020–2024",
+      "url": "https://www.marines.co.jp/corp/past_roster/2020.html"
+    },
+    {
+      "label": "NPB プロ野球在籍者名簿",
+      "url": "https://npb.jp/history/register/index_ma.html"
+    },
+    {
+      "label": "NPB 2022年度 育成選手登録",
+      "url": "https://npb.jp/announcement/2022/registereddev_m.html"
+    },
+    {
+      "label": "NPB 2022年度 支配下選手登録",
+      "url": "https://npb.jp/announcement/2022/registered_m.html"
+    }
+  ]
+}

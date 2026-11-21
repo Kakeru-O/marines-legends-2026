@@ -1,0 +1,128 @@
+{
+  "id": "kobayashi-hiroyuki",
+  "name": "小林宏之",
+  "reading": "こばやし・ひろゆき",
+  "eventTeam": "WHITE",
+  "eventNumber": 41,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "1997–2010",
+  "jerseyNumbers": [
+    {
+      "number": 41,
+      "period": "1997–2010",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "2005年は先発として12勝を挙げ、日本シリーズ第3戦の勝利投手となった右腕。2010年には抑えに転じて29セーブを記録し、異なる役割で2度の日本一を支えた。",
+  "careerStatsMarines": {
+    "games": 328,
+    "wins": 74,
+    "losses": 69,
+    "saves": 29,
+    "holds": 7,
+    "completeGames": 22,
+    "shutouts": 4,
+    "strikeouts": 1080,
+    "innings": "1247.0",
+    "era": "3.54",
+    "note": "NPB個人年度別成績のロッテ所属行を合算。投球回はアウト数で集計し、防御率は自責点から算出。ホールドは記録開始の2005年以降。"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 23,
+      "wins": 12,
+      "losses": 6,
+      "saves": 0,
+      "holds": 0,
+      "completeGames": 4,
+      "shutouts": 1,
+      "strikeouts": 129,
+      "innings": "160.2",
+      "era": "3.30"
+    },
+    "2010": {
+      "games": 57,
+      "wins": 3,
+      "losses": 3,
+      "saves": 29,
+      "holds": 5,
+      "completeGames": 0,
+      "shutouts": 0,
+      "strikeouts": 53,
+      "innings": "61.0",
+      "era": "2.21"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第3戦に先発し、6回1失点で勝利投手"
+      ],
+      "sourceStatus": "verified"
+    },
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "第1戦で9回を無失点に抑えてセーブ",
+        "第6戦では延長14・15回の2イニングを無失点に抑えた"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/61563884.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_3.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第5戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_5.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1995–1999",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

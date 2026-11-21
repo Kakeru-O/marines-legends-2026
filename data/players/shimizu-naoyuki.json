@@ -1,0 +1,83 @@
+{
+  "id": "shimizu-naoyuki",
+  "name": "清水直行",
+  "reading": "しみず・なおゆき",
+  "eventTeam": "WHITE",
+  "eventNumber": 18,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2000–2009",
+  "jerseyNumbers": [
+    {
+      "number": 18,
+      "period": "2000–2009",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "2000年代の先発陣を支え、2002年から2006年まで5年連続で2桁勝利を記録した右腕。2005年の日本シリーズでは開幕投手を務め、7回1失点で勝利した。",
+  "careerStatsMarines": {
+    "games": 261,
+    "wins": 93,
+    "losses": 85,
+    "saves": 0,
+    "holds": 0,
+    "completeGames": 38,
+    "shutouts": 9,
+    "strikeouts": 1029,
+    "innings": "1485.1",
+    "era": "4.02",
+    "note": "NPB個人年度別成績のロッテ所属行を合算。投球回はアウト数で集計し、防御率は自責点から算出。ホールドは記録開始の2005年以降。"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 23,
+      "wins": 10,
+      "losses": 11,
+      "saves": 0,
+      "holds": 0,
+      "completeGames": 7,
+      "shutouts": 1,
+      "strikeouts": 99,
+      "innings": "164.1",
+      "era": "3.83"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第1戦に先発し、7回1失点で勝利投手"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/41545111.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_1.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

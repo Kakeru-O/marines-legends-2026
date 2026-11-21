@@ -1,0 +1,124 @@
+{
+  "id": "uchi-tatsuya",
+  "name": "内竜也",
+  "reading": "うち・たつや",
+  "eventTeam": "BLACK",
+  "eventNumber": 21,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2004–2020",
+  "jerseyNumbers": [
+    {
+      "number": 21,
+      "period": "2004–2020",
+      "verification": "official_past_roster_and_registration"
+    }
+  ],
+  "summary": "救援投手として勝負どころを任され、後には抑えも務めた右腕。2010年の日本シリーズでは4試合で8回を無失点に抑え、優秀選手賞を受賞した。2018年には自己最多の26セーブを記録した。",
+  "careerStatsMarines": {
+    "games": 308,
+    "wins": 20,
+    "losses": 12,
+    "saves": 56,
+    "holds": 87,
+    "completeGames": 0,
+    "shutouts": 0,
+    "strikeouts": 311,
+    "innings": "324.2",
+    "era": "3.33"
+  },
+  "seasonStats": {
+    "2005": {
+      "status": "no_first_team_appearance",
+      "note": "ロッテに在籍していたが、2005年の一軍登板なし。"
+    },
+    "2010": {
+      "games": 15,
+      "wins": 2,
+      "losses": 0,
+      "saves": 0,
+      "holds": 4,
+      "completeGames": 0,
+      "shutouts": 0,
+      "innings": "20.0",
+      "strikeouts": 20,
+      "era": "4.50"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "4試合に救援登板し、計8回を無失点、15奪三振",
+        "第7戦では3回を無失点に抑えて7奪三振",
+        "日本シリーズ優秀選手賞を受賞"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/61165119.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2020–2024",
+      "url": "https://www.marines.co.jp/corp/past_roster/2020.html"
+    },
+    {
+      "label": "NPB プロ野球在籍者名簿",
+      "url": "https://npb.jp/history/register/index_u.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 全試合結果",
+      "url": "https://npb.jp/bis/scores/nipponseries/linescore2010.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 表彰選手",
+      "url": "https://npb.jp/nippons/2010/award.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    }
+  ]
+}

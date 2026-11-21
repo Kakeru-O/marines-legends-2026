@@ -1,0 +1,87 @@
+{
+  "id": "takehara-naotaka",
+  "name": "竹原直隆",
+  "reading": "たけはら・なおたか",
+  "eventTeam": "BLACK",
+  "eventNumber": 25,
+  "position": "外野手",
+  "throwsBats": "左投右打",
+  "marinesTenure": "2005–2011",
+  "jerseyNumbers": [
+    {
+      "number": 25,
+      "period": "2005–2011",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "左投げ右打ちという珍しい投打の組み合わせを持つ外野手。2007年には66試合で8本塁打を記録するなど、右の長打力で打線に加わった。",
+  "careerStatsMarines": {
+    "games": 274,
+    "plateAppearances": 649,
+    "atBats": 552,
+    "hits": 113,
+    "homeRuns": 17,
+    "rbi": 76,
+    "stolenBases": 6,
+    "battingAverage": "0.205"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 2,
+      "plateAppearances": 4,
+      "atBats": 4,
+      "hits": 0,
+      "homeRuns": 0,
+      "rbi": 0,
+      "stolenBases": 0,
+      "battingAverage": "0.000",
+      "onBasePercentage": "0.000",
+      "sluggingPercentage": "0.000"
+    },
+    "2010": {
+      "games": 40,
+      "plateAppearances": 79,
+      "atBats": 72,
+      "hits": 10,
+      "homeRuns": 1,
+      "rbi": 7,
+      "stolenBases": 1,
+      "battingAverage": "0.139",
+      "onBasePercentage": "0.215",
+      "sluggingPercentage": "0.222"
+    }
+  },
+  "japanSeries": [],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/71975110.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    }
+  ]
+}

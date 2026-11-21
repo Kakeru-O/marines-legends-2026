@@ -1,0 +1,85 @@
+{
+  "id": "takahama-takuya",
+  "name": "高濱卓也",
+  "reading": "たかはま・たくや",
+  "eventTeam": "BLACK",
+  "eventNumber": "00",
+  "position": "内野手",
+  "throwsBats": "右投左打",
+  "marinesTenure": "2011–2021",
+  "jerseyNumbers": [
+    {
+      "number": "00",
+      "period": "2011–2016",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 32,
+      "period": "2017–2019",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 127,
+      "period": "2020–2021年5月（育成）",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 61,
+      "period": "2021年5月31日–2021",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "右投げ左打ちの内野手で、2016年には自己最多の53試合に出場して3本塁打を記録。育成契約を経て2021年に支配下登録へ復帰し、その年までロッテでプレーした。",
+  "careerStatsMarines": {
+    "games": 212,
+    "plateAppearances": 420,
+    "atBats": 382,
+    "hits": 84,
+    "homeRuns": 3,
+    "rbi": 30,
+    "stolenBases": 0,
+    "battingAverage": "0.220"
+  },
+  "seasonStats": {},
+  "japanSeries": [],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/21925116.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2020–2024",
+      "url": "https://www.marines.co.jp/corp/past_roster/2020.html"
+    },
+    {
+      "label": "球団公式 2021年支配下選手登録",
+      "url": "https://www.marines.co.jp/news/announce/regist/2021/index.html"
+    }
+  ]
+}

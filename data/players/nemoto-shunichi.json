@@ -1,0 +1,122 @@
+{
+  "id": "nemoto-shunichi",
+  "name": "根元俊一",
+  "reading": "ねもと・しゅんいち",
+  "eventTeam": "BLACK",
+  "eventNumber": 32,
+  "position": "内野手",
+  "throwsBats": "右投左打",
+  "marinesTenure": "2006–2018",
+  "jerseyNumbers": [
+    {
+      "number": 32,
+      "period": "2006–2012",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 2,
+      "period": "2013–2018",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "右投げ左打ちの内野手で、2012年には133試合に出場して143安打を記録。2010年の日本シリーズでは代打で出場し、第4戦では犠打を決めた。",
+  "careerStatsMarines": {
+    "games": 838,
+    "plateAppearances": 2652,
+    "atBats": 2333,
+    "hits": 583,
+    "homeRuns": 31,
+    "rbi": 204,
+    "stolenBases": 35,
+    "battingAverage": "0.250"
+  },
+  "seasonStats": {
+    "2010": {
+      "games": 53,
+      "plateAppearances": 61,
+      "atBats": 51,
+      "hits": 10,
+      "homeRuns": 1,
+      "rbi": 6,
+      "stolenBases": 0,
+      "battingAverage": "0.196",
+      "onBasePercentage": "0.281",
+      "sluggingPercentage": "0.294"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "第1戦・第4戦・第7戦に代打で出場",
+        "第4戦で犠打を記録"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/01205112.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_2.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_3.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第5戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_5.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "yabuta-yasuhiko",
+  "name": "薮田安彦",
+  "reading": "やぶた・やすひこ",
+  "eventTeam": "WHITE",
+  "eventNumber": 20,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "1996–2007、2010–2013",
+  "jerseyNumbers": [
+    {
+      "number": 20,
+      "period": "1996–2007",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 49,
+      "period": "2010–2013",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "先発から救援へ役割を広げ、2005年と2010年の日本一をブルペンから支えた右腕。2007年には最優秀中継ぎ投手に輝き、米国でのプレーを経て2010年にロッテへ復帰した。",
+  "careerStatsMarines": {
+    "games": 520,
+    "wins": 48,
+    "losses": 72,
+    "saves": 67,
+    "holds": 112,
+    "completeGames": 7,
+    "shutouts": 1,
+    "strikeouts": 710,
+    "innings": "1009.1",
+    "era": "3.81",
+    "note": "NPB個人年度別成績のロッテ所属行を合算。投球回はアウト数で集計し、防御率は自責点から算出。ホールドは記録開始の2005年以降。"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 51,
+      "wins": 7,
+      "losses": 4,
+      "saves": 2,
+      "holds": 19,
+      "completeGames": 0,
+      "shutouts": 0,
+      "strikeouts": 54,
+      "innings": "55.2",
+      "era": "3.07"
+    },
+    "2010": {
+      "games": 63,
+      "wins": 2,
+      "losses": 5,
+      "saves": 1,
+      "holds": 28,
+      "completeGames": 0,
+      "shutouts": 0,
+      "strikeouts": 57,
+      "innings": "65.2",
+      "era": "3.15"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第3戦・第4戦に救援登板し、いずれも1回無失点"
+      ],
+      "sourceStatus": "verified"
+    },
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "4試合に救援登板し、計5回2/3を無失点",
+        "第7戦では2回を無安打無失点に抑えた"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/71273882.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_3.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第5戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_5.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1995–1999",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "NPB 2007年 パ・リーグ表彰",
+      "url": "https://npb.jp/award/2007/pl.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

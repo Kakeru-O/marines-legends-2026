@@ -1,0 +1,174 @@
+{
+  "id": "fukuura-kazuya",
+  "name": "福浦和也",
+  "reading": "ふくうら・かずや",
+  "eventTeam": "BLACK",
+  "eventNumber": 9,
+  "position": "内野手",
+  "throwsBats": "左投左打",
+  "marinesTenure": "1994–2019",
+  "jerseyNumbers": [
+    {
+      "number": 70,
+      "period": "1994–1997",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 9,
+      "period": "1998–2019",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "ロッテ一筋で通算2000安打を積み重ねた左打ちの一塁手。2001年に首位打者を獲得し、2005年の日本シリーズ第3戦では満塁本塁打を放つなど、2度の日本一に貢献した。",
+  "careerStatsMarines": {
+    "games": 2235,
+    "plateAppearances": 7955,
+    "atBats": 7039,
+    "hits": 2000,
+    "homeRuns": 118,
+    "rbi": 935,
+    "stolenBases": 10,
+    "battingAverage": "0.284"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 114,
+      "plateAppearances": 491,
+      "atBats": 434,
+      "hits": 130,
+      "homeRuns": 6,
+      "rbi": 72,
+      "stolenBases": 0,
+      "battingAverage": "0.300",
+      "onBasePercentage": "0.363",
+      "sluggingPercentage": "0.403"
+    },
+    "2010": {
+      "games": 116,
+      "plateAppearances": 359,
+      "atBats": 322,
+      "hits": 95,
+      "homeRuns": 13,
+      "rbi": 61,
+      "stolenBases": 0,
+      "battingAverage": "0.295",
+      "onBasePercentage": "0.354",
+      "sluggingPercentage": "0.475"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第3戦の7回に満塁本塁打を放ち、4打点"
+      ],
+      "sourceStatus": "verified"
+    },
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "第3戦で二塁打と犠飛を記録し、1打点",
+        "第5戦で適時打を放ち、1打点"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/21923889.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1990–1994",
+      "url": "https://www.marines.co.jp/corp/past_roster/1990.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1995–1999",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_1.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_2.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_3.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_2.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_3.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第5戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_5.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    },
+    {
+      "label": "球団公式 福浦選手引退特設サイト",
+      "url": "https://www.marines.co.jp/special/fukuura9/"
+    }
+  ]
+}

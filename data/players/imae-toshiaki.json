@@ -1,0 +1,171 @@
+{
+  "id": "imae-toshiaki",
+  "name": "今江敏晃",
+  "reading": "いまえ・としあき",
+  "eventTeam": "BLACK",
+  "eventNumber": 8,
+  "position": "内野手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2002–2015",
+  "jerseyNumbers": [
+    {
+      "number": 25,
+      "period": "2002–2004",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 8,
+      "period": "2005–2015",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "三塁を守り、2005年と2010年の日本シリーズでともにMVPに輝いた主力打者。2005年は最初の2試合で8打数8安打、2010年は打率.444と、大舞台で打線を引っ張った。",
+  "careerStatsMarines": {
+    "games": 1411,
+    "plateAppearances": 5476,
+    "atBats": 5006,
+    "hits": 1424,
+    "homeRuns": 93,
+    "rbi": 637,
+    "stolenBases": 30,
+    "battingAverage": "0.284"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 132,
+      "plateAppearances": 509,
+      "atBats": 461,
+      "hits": 143,
+      "homeRuns": 8,
+      "rbi": 71,
+      "stolenBases": 4,
+      "battingAverage": "0.310",
+      "onBasePercentage": "0.353",
+      "sluggingPercentage": "0.451"
+    },
+    "2010": {
+      "games": 140,
+      "plateAppearances": 596,
+      "atBats": 531,
+      "hits": 176,
+      "homeRuns": 10,
+      "rbi": 77,
+      "stolenBases": 8,
+      "battingAverage": "0.331",
+      "onBasePercentage": "0.364",
+      "sluggingPercentage": "0.461"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "最初の2試合で8打数8安打。第1戦には先制本塁打",
+        "シリーズ15打数10安打、打率.667で最高殊勲選手賞（MVP）"
+      ],
+      "sourceStatus": "verified"
+    },
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "シリーズ27打数12安打、打率.444で最高殊勲選手賞（MVP）",
+        "第7戦で5打数4安打1打点"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/01305115.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_1.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_2.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_3.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_4.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 表彰選手",
+      "url": "https://npb.jp/nippons/2005/award.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_2.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_3.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第5戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_5.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 表彰選手",
+      "url": "https://npb.jp/nippons/2010/award.html"
+    }
+  ]
+}

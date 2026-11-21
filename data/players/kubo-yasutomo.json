@@ -1,0 +1,70 @@
+{
+  "id": "kubo-yasutomo",
+  "name": "久保康友",
+  "reading": "くぼ・やすとも",
+  "eventTeam": "WHITE",
+  "eventNumber": 16,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2005–2008",
+  "jerseyNumbers": [
+    {
+      "number": 16,
+      "period": "2005–2008",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "入団1年目の2005年に先発として10勝を挙げ、パ・リーグ最優秀新人に選ばれた右腕。ロッテでは2008年までプレーし、その後は阪神や横浜DeNAでも先発を担った。",
+  "careerStatsMarines": {
+    "games": 96,
+    "wins": 30,
+    "losses": 31,
+    "saves": 0,
+    "holds": 9,
+    "completeGames": 9,
+    "shutouts": 3,
+    "strikeouts": 355,
+    "innings": "481.1",
+    "era": "4.19",
+    "note": "NPB個人年度別成績のロッテ所属行を合算。投球回はアウト数で集計し、防御率は自責点から算出。ホールドは記録開始の2005年以降。"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 19,
+      "wins": 10,
+      "losses": 3,
+      "saves": 0,
+      "holds": 0,
+      "completeGames": 5,
+      "shutouts": 3,
+      "strikeouts": 84,
+      "innings": "121.2",
+      "era": "3.40"
+    }
+  },
+  "japanSeries": [],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/61565110.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "NPB 2005年 パ・リーグ表彰",
+      "url": "https://npb.jp/award/2005/pl.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

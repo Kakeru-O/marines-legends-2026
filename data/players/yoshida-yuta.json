@@ -1,0 +1,71 @@
+{
+  "id": "yoshida-yuta",
+  "name": "吉田裕太",
+  "reading": "よしだ・ゆうた",
+  "eventTeam": "BLACK",
+  "eventNumber": 24,
+  "position": "捕手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2014–2022",
+  "jerseyNumbers": [
+    {
+      "number": 24,
+      "period": "2014–2018",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 39,
+      "period": "2019–2022",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "大学から入団した右打ちの捕手で、新人の2014年に50試合、翌2015年には65試合に出場。ロッテ一筋で捕手陣の一角を担った。",
+  "careerStatsMarines": {
+    "games": 248,
+    "plateAppearances": 484,
+    "atBats": 423,
+    "hits": 81,
+    "homeRuns": 9,
+    "rbi": 30,
+    "stolenBases": 1,
+    "battingAverage": "0.191"
+  },
+  "seasonStats": {},
+  "japanSeries": [],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/91695139.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2020–2024",
+      "url": "https://www.marines.co.jp/corp/past_roster/2020.html"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "kuroki-tomohiro",
+  "name": "黒木知宏",
+  "reading": "くろき・ともひろ",
+  "eventTeam": "WHITE",
+  "eventNumber": 54,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "1995–2007",
+  "jerseyNumbers": [
+    {
+      "number": 54,
+      "period": "1995–2007",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "1990年代後半の先発陣を支えた右腕。1998年は13勝で最多勝利、勝率.591で最高勝率を記録し、翌1999年には自己最多の14勝を挙げた。",
+  "careerStatsMarines": {
+    "games": 199,
+    "wins": 76,
+    "losses": 68,
+    "saves": 1,
+    "holds": 0,
+    "completeGames": 38,
+    "shutouts": 6,
+    "strikeouts": 879,
+    "innings": "1208.2",
+    "era": "3.43",
+    "note": "NPB個人年度別成績のロッテ所属行を合算。投球回はアウト数で集計し、防御率は自責点から算出。ホールドは記録開始の2005年以降。"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 3,
+      "wins": 2,
+      "losses": 1,
+      "saves": 0,
+      "holds": 0,
+      "completeGames": 0,
+      "shutouts": 0,
+      "strikeouts": 9,
+      "innings": "17.2",
+      "era": "4.58"
+    }
+  },
+  "japanSeries": [],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/31533880.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1995–1999",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "NPB 1998年 パ・リーグ成績",
+      "url": "https://npb.jp/bis/yearly/pacificleague_1998.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

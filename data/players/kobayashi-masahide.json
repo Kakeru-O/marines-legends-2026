@@ -1,0 +1,91 @@
+{
+  "id": "kobayashi-masahide",
+  "name": "小林雅英",
+  "reading": "こばやし・まさひで",
+  "eventTeam": "WHITE",
+  "eventNumber": 30,
+  "position": "投手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "1999–2007",
+  "jerseyNumbers": [
+    {
+      "number": 30,
+      "period": "1999–2007",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "試合の最後を任された抑え投手で、2005年には29セーブで最多セーブ投手に輝いた。日本シリーズ第4戦でも最終回を無失点に抑え、31年ぶりの日本一を締めくくった。",
+  "careerStatsMarines": {
+    "games": 445,
+    "wins": 36,
+    "losses": 34,
+    "saves": 227,
+    "holds": 3,
+    "completeGames": 3,
+    "shutouts": 0,
+    "strikeouts": 463,
+    "innings": "580.1",
+    "era": "2.79",
+    "note": "NPB個人年度別成績のロッテ所属行を合算。投球回はアウト数で集計し、防御率は自責点から算出。ホールドは記録開始の2005年以降。"
+  },
+  "seasonStats": {
+    "2005": {
+      "games": 46,
+      "wins": 2,
+      "losses": 2,
+      "saves": 29,
+      "holds": 0,
+      "completeGames": 0,
+      "shutouts": 0,
+      "strikeouts": 33,
+      "innings": "45.1",
+      "era": "2.58"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2005,
+      "champion": true,
+      "highlights": [
+        "第4戦の9回を無失点に抑えてセーブを記録し、日本一を決めた"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/61563888.html"
+    },
+    {
+      "label": "NPB 2005日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2005_4.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 1995–1999",
+      "url": "https://www.marines.co.jp/corp/past_roster/1995.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "NPB 2005年 パ・リーグ表彰",
+      "url": "https://npb.jp/award/2005/pl.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

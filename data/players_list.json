@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-21",
+  "sources": [
+    {
+      "label": "球団公式 参加予定選手",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "球団公式 2026年11月4日追加・不参加発表",
+      "url": "https://www.marines.co.jp/news/detail/202600948122.html"
+    }
+  ],
+  "players": [
+    {
+      "id": "fujita-soichi",
+      "file": "fujita-soichi.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 12,
+      "position": "投手",
+      "order": 1
+    },
+    {
+      "id": "kubo-yasutomo",
+      "file": "kubo-yasutomo.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 16,
+      "position": "投手",
+      "order": 2
+    },
+    {
+      "id": "shimizu-naoyuki",
+      "file": "shimizu-naoyuki.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 18,
+      "position": "投手",
+      "order": 3
+    },
+    {
+      "id": "yabuta-yasuhiko",
+      "file": "yabuta-yasuhiko.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 20,
+      "position": "投手",
+      "order": 4
+    },
+    {
+      "id": "ono-shingo",
+      "file": "ono-shingo.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 29,
+      "position": "投手",
+      "order": 5
+    },
+    {
+      "id": "kobayashi-masahide",
+      "file": "kobayashi-masahide.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 30,
+      "position": "投手",
+      "order": 6
+    },
+    {
+      "id": "watanabe-shunsuke",
+      "file": "watanabe-shunsuke.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 31,
+      "position": "投手",
+      "order": 7
+    },
+    {
+      "id": "kobayashi-hiroyuki",
+      "file": "kobayashi-hiroyuki.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 41,
+      "position": "投手",
+      "order": 8
+    },
+    {
+      "id": "kawasaki-yusuke",
+      "file": "kawasaki-yusuke.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 49,
+      "position": "投手",
+      "order": 9
+    },
+    {
+      "id": "kuroki-tomohiro",
+      "file": "kuroki-tomohiro.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 54,
+      "position": "投手",
+      "order": 10
+    },
+    {
+      "id": "hashimoto-tasuku",
+      "file": "hashimoto-tasuku.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 33,
+      "position": "捕手",
+      "order": 11
+    },
+    {
+      "id": "kanazawa-takeshi",
+      "file": "kanazawa-takeshi.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 62,
+      "position": "捕手",
+      "order": 12
+    },
+    {
+      "id": "hori-koichi",
+      "file": "hori-koichi.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 5,
+      "position": "内野手",
+      "order": 13
+    },
+    {
+      "id": "watanabe-masato",
+      "file": "watanabe-masato.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 40,
+      "position": "内野手",
+      "order": 14
+    },
+    {
+      "id": "heiuchi-hisao",
+      "file": "heiuchi-hisao.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 52,
+      "position": "内野手",
+      "order": 15
+    },
+    {
+      "id": "aono-takeshi",
+      "file": "aono-takeshi.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 58,
+      "position": "内野手",
+      "order": 16
+    },
+    {
+      "id": "hayasaka-keisuke",
+      "file": "hayasaka-keisuke.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 68,
+      "position": "内野手",
+      "order": 17
+    },
+    {
+      "id": "morozumi-kenji",
+      "file": "morozumi-kenji.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 0,
+      "position": "外野手",
+      "order": 18
+    },
+    {
+      "id": "saburo",
+      "file": "saburo.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 3,
+      "position": "外野手",
+      "order": 19
+    },
+    {
+      "id": "hayakawa-daisuke",
+      "file": "hayakawa-daisuke.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 44,
+      "position": "外野手",
+      "order": 20
+    },
+    {
+      "id": "benny-agbayani",
+      "file": "benny-agbayani.json",
+      "eventTeam": "WHITE",
+      "eventNumber": 50,
+      "position": "外野手",
+      "order": 21
+    },
+    {
+      "id": "ogino-tadahiro",
+      "file": "ogino-tadahiro.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 0,
+      "position": "投手",
+      "order": 22
+    },
+    {
+      "id": "omine-yuta",
+      "file": "omine-yuta.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 11,
+      "position": "投手",
+      "order": 23
+    },
+    {
+      "id": "otani-tomohisa",
+      "file": "otani-tomohisa.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 14,
+      "position": "投手",
+      "order": 24
+    },
+    {
+      "id": "mima-manabu",
+      "file": "mima-manabu.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 15,
+      "position": "投手",
+      "order": 25
+    },
+    {
+      "id": "naruse-yoshihisa",
+      "file": "naruse-yoshihisa.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 17,
+      "position": "投手",
+      "order": 26
+    },
+    {
+      "id": "uchi-tatsuya",
+      "file": "uchi-tatsuya.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 21,
+      "position": "投手",
+      "order": 27
+    },
+    {
+      "id": "matsunaga-takahiro",
+      "file": "matsunaga-takahiro.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 28,
+      "position": "投手",
+      "order": 28
+    },
+    {
+      "id": "minami-masaki",
+      "file": "minami-masaki.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 33,
+      "position": "投手",
+      "order": 29
+    },
+    {
+      "id": "futaki-kota",
+      "file": "futaki-kota.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 64,
+      "position": "投手",
+      "order": 30
+    },
+    {
+      "id": "satozaki-tomoya",
+      "file": "satozaki-tomoya.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 22,
+      "position": "捕手",
+      "order": 31
+    },
+    {
+      "id": "yoshida-yuta",
+      "file": "yoshida-yuta.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 24,
+      "position": "捕手",
+      "order": 32
+    },
+    {
+      "id": "emura-naoya",
+      "file": "emura-naoya.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 53,
+      "position": "捕手",
+      "order": 33
+    },
+    {
+      "id": "takahama-takuya",
+      "file": "takahama-takuya.json",
+      "eventTeam": "BLACK",
+      "eventNumber": "00",
+      "position": "内野手",
+      "order": 34
+    },
+    {
+      "id": "imae-toshiaki",
+      "file": "imae-toshiaki.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 8,
+      "position": "内野手",
+      "order": 35
+    },
+    {
+      "id": "fukuura-kazuya",
+      "file": "fukuura-kazuya.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 9,
+      "position": "内野手",
+      "order": 36
+    },
+    {
+      "id": "nemoto-shunichi",
+      "file": "nemoto-shunichi.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 32,
+      "position": "内野手",
+      "order": 37
+    },
+    {
+      "id": "inoue-seiya",
+      "file": "inoue-seiya.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 44,
+      "position": "内野手",
+      "order": 38
+    },
+    {
+      "id": "luis-cruz",
+      "file": "luis-cruz.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 47,
+      "position": "内野手",
+      "order": 39
+    },
+    {
+      "id": "kim-tae-kyun",
+      "file": "kim-tae-kyun.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 52,
+      "position": "内野手",
+      "order": 40
+    },
+    {
+      "id": "omatsu-shoitsu",
+      "file": "omatsu-shoitsu.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 10,
+      "position": "外野手",
+      "order": 41
+    },
+    {
+      "id": "takehara-naotaka",
+      "file": "takehara-naotaka.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 25,
+      "position": "外野手",
+      "order": 42
+    },
+    {
+      "id": "kato-shohei",
+      "file": "kato-shohei.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 65,
+      "position": "外野手",
+      "order": 43
+    },
+    {
+      "id": "okada-yoshifumi",
+      "file": "okada-yoshifumi.json",
+      "eventTeam": "BLACK",
+      "eventNumber": 66,
+      "position": "外野手",
+      "order": 44
+    }
+  ]
+}

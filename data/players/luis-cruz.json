@@ -1,0 +1,66 @@
+{
+  "id": "luis-cruz",
+  "name": "ルイス・クルーズ",
+  "reading": "るいす・くるーず",
+  "eventTeam": "BLACK",
+  "eventNumber": 47,
+  "position": "内野手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2014–2015",
+  "jerseyNumbers": [
+    {
+      "number": 47,
+      "period": "2014–2015",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "内野の守備で魅せた助っ人選手で、2015年に二塁手としてゴールデングラブ賞を受賞。ロッテでは2年連続16本塁打を放ち、打線でも存在感を示した。",
+  "careerStatsMarines": {
+    "games": 259,
+    "plateAppearances": 1010,
+    "atBats": 954,
+    "hits": 236,
+    "homeRuns": 32,
+    "rbi": 134,
+    "stolenBases": 1,
+    "battingAverage": "0.247"
+  },
+  "seasonStats": {},
+  "japanSeries": [],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/01805139.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "球団公式 2026年11月4日追加参加選手発表",
+      "url": "https://www.marines.co.jp/news/detail/202600948122.html"
+    }
+  ]
+}

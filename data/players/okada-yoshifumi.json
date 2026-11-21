@@ -1,0 +1,121 @@
+{
+  "id": "okada-yoshifumi",
+  "name": "岡田幸文",
+  "reading": "おかだ・よしふみ",
+  "eventTeam": "BLACK",
+  "eventNumber": 66,
+  "position": "外野手",
+  "throwsBats": "左投左打",
+  "marinesTenure": "2009–2018",
+  "jerseyNumbers": [
+    {
+      "number": 66,
+      "period": "2009–2018",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "育成入団から外野の守備と俊足を武器に活躍し、2011年・2012年にゴールデングラブ賞を受賞。2010年の日本シリーズ第7戦では延長12回に決勝の適時三塁打を放った。",
+  "careerStatsMarines": {
+    "games": 910,
+    "plateAppearances": 2501,
+    "atBats": 2247,
+    "hits": 573,
+    "homeRuns": 0,
+    "rbi": 119,
+    "stolenBases": 142,
+    "battingAverage": "0.255"
+  },
+  "seasonStats": {
+    "2010": {
+      "games": 72,
+      "plateAppearances": 161,
+      "atBats": 142,
+      "hits": 25,
+      "homeRuns": 0,
+      "rbi": 8,
+      "stolenBases": 15,
+      "battingAverage": "0.176",
+      "onBasePercentage": "0.224",
+      "sluggingPercentage": "0.190"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "第7戦の延長12回に決勝の適時三塁打",
+        "第7戦で6打数3安打2打点"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/81385118.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_2.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_3.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第5戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_5.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    },
+    {
+      "label": "球団公式 岡田幸文選手名鑑2018（受賞歴）",
+      "url": "https://www.marines.co.jp/team/player/detail/2018_00001535.html"
+    }
+  ]
+}

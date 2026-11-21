@@ -1,0 +1,90 @@
+{
+  "id": "kanazawa-takeshi",
+  "name": "金澤岳",
+  "reading": "かなざわ・たけし",
+  "eventTeam": "WHITE",
+  "eventNumber": 62,
+  "position": "捕手",
+  "throwsBats": "右投左打",
+  "marinesTenure": "2003–2018",
+  "jerseyNumbers": [
+    {
+      "number": 62,
+      "period": "2003–2013",
+      "verification": "official_past_roster"
+    },
+    {
+      "number": 25,
+      "period": "2014–2018",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "2003年から2018年までロッテでプレーした左打ちの捕手。2014年には42試合に出場して打率.299を記録し、捕手陣の一員としてチームを支えた。",
+  "careerStatsMarines": {
+    "games": 177,
+    "plateAppearances": 375,
+    "atBats": 330,
+    "hits": 76,
+    "homeRuns": 1,
+    "rbi": 27,
+    "stolenBases": 1,
+    "battingAverage": "0.230"
+  },
+  "seasonStats": {
+    "2005": {
+      "status": "no_first_team_appearance",
+      "note": "ロッテ在籍。一軍公式戦出場なし。"
+    },
+    "2010": {
+      "games": 6,
+      "plateAppearances": 7,
+      "atBats": 7,
+      "hits": 4,
+      "homeRuns": 0,
+      "rbi": 1,
+      "stolenBases": 0,
+      "battingAverage": "0.571"
+    }
+  },
+  "japanSeries": [],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/61565117.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2000–2004",
+      "url": "https://www.marines.co.jp/corp/past_roster/2000.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}

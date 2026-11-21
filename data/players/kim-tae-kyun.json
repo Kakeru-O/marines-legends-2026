@@ -1,0 +1,113 @@
+{
+  "id": "kim-tae-kyun",
+  "name": "金泰均",
+  "reading": "きむ・てぎゅん",
+  "eventTeam": "BLACK",
+  "eventNumber": 52,
+  "position": "内野手",
+  "throwsBats": "右投右打",
+  "marinesTenure": "2010–2011",
+  "jerseyNumbers": [
+    {
+      "number": 52,
+      "period": "2010–2011",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "韓国から加入し、2010年に21本塁打、92打点を挙げて日本一を支えた右の強打者。日本シリーズ第5戦では4打数4安打と打線をつなぎ、第7戦でも打点を記録した。",
+  "careerStatsMarines": {
+    "games": 172,
+    "plateAppearances": 733,
+    "atBats": 631,
+    "hits": 167,
+    "homeRuns": 22,
+    "rbi": 106,
+    "stolenBases": 0,
+    "battingAverage": "0.265"
+  },
+  "seasonStats": {
+    "2010": {
+      "games": 141,
+      "plateAppearances": 614,
+      "atBats": 527,
+      "hits": 141,
+      "homeRuns": 21,
+      "rbi": 92,
+      "stolenBases": 0,
+      "battingAverage": "0.268",
+      "onBasePercentage": "0.357",
+      "sluggingPercentage": "0.429"
+    }
+  },
+  "japanSeries": [
+    {
+      "year": 2010,
+      "champion": true,
+      "highlights": [
+        "第5戦で4打数4安打1打点",
+        "第7戦の7回に適時打を放ち、1打点"
+      ],
+      "sourceStatus": "verified"
+    }
+  ],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（通算は千葉ロッテ所属年度のみ合算）",
+      "url": "https://npb.jp/bis/players/21625131.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第1戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第2戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_2.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第3戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_3.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第4戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_4.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第5戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_5.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第6戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_6.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 第7戦",
+      "url": "https://npb.jp/bis/scores/nipponseries/boxscore2010_7.html"
+    },
+    {
+      "label": "球団公式 2026年11月4日追加参加選手発表",
+      "url": "https://www.marines.co.jp/news/detail/202600948122.html"
+    }
+  ]
+}

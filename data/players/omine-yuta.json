@@ -1,0 +1,113 @@
+{
+  "id": "omine-yuta",
+  "name": "大嶺祐太",
+  "reading": "おおみね・ゆうた",
+  "eventTeam": "BLACK",
+  "eventNumber": 11,
+  "position": "投手",
+  "throwsBats": "右投左打",
+  "marinesTenure": "2007–2021",
+  "jerseyNumbers": [
+    {
+      "number": 1,
+      "period": "2007–2009",
+      "verification": "official_past_roster_and_registration"
+    },
+    {
+      "number": 11,
+      "period": "2010–2016",
+      "verification": "official_past_roster_and_registration"
+    },
+    {
+      "number": 30,
+      "period": "2017–2019",
+      "verification": "official_past_roster_and_registration"
+    },
+    {
+      "number": 126,
+      "period": "2020（育成契約、支配下復帰まで）",
+      "verification": "official_past_roster_and_registration"
+    },
+    {
+      "number": 64,
+      "period": "2020（支配下復帰後）–2021",
+      "verification": "official_past_roster_and_registration"
+    }
+  ],
+  "summary": "先発として登板を重ねた沖縄・八重山商工高出身の右腕。2015年は24試合で自己最多の8勝を挙げ、防御率3.17を記録した。",
+  "careerStatsMarines": {
+    "games": 129,
+    "wins": 29,
+    "losses": 35,
+    "saves": 0,
+    "holds": 1,
+    "completeGames": 6,
+    "shutouts": 4,
+    "strikeouts": 320,
+    "innings": "521.0",
+    "era": "4.72"
+  },
+  "seasonStats": {
+    "2010": {
+      "games": 13,
+      "wins": 3,
+      "losses": 6,
+      "saves": 0,
+      "holds": 0,
+      "completeGames": 2,
+      "shutouts": 1,
+      "innings": "71.1",
+      "strikeouts": 52,
+      "era": "5.17"
+    }
+  },
+  "japanSeries": [],
+  "cheers": {
+    "type": "none_or_not_applicable"
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績",
+      "url": "https://npb.jp/bis/players/01505114.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2010–2014",
+      "url": "https://www.marines.co.jp/corp/past_roster/2010.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2015–2019",
+      "url": "https://www.marines.co.jp/corp/past_roster/2015.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2020–2024",
+      "url": "https://www.marines.co.jp/corp/past_roster/2020.html"
+    },
+    {
+      "label": "NPB プロ野球在籍者名簿",
+      "url": "https://npb.jp/history/register/index_o.html"
+    },
+    {
+      "label": "NPB 2010日本シリーズ 全試合結果",
+      "url": "https://npb.jp/bis/scores/nipponseries/linescore2010.html"
+    },
+    {
+      "label": "NPB 2020年度 育成選手登録",
+      "url": "https://npb.jp/announcement/2020/registereddev_m.html"
+    },
+    {
+      "label": "マリーンズ 大嶺祐太投手 支配下選手登録について",
+      "url": "https://www.marines.co.jp/news/detail/00000006.html"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "hayakawa-daisuke",
+  "name": "早川大輔",
+  "reading": "はやかわ・だいすけ",
+  "eventTeam": "WHITE",
+  "eventNumber": 44,
+  "position": "外野手",
+  "throwsBats": "右投両打",
+  "marinesTenure": "2007–2009",
+  "jerseyNumbers": [
+    {
+      "number": 44,
+      "period": "2007–2009",
+      "verification": "official_past_roster"
+    }
+  ],
+  "summary": "オリックスから移籍し、2007年から2009年までロッテでプレーした両打ちの外野手。2007年には133試合で打率.283、16盗塁を記録し、外野の一角を担った。",
+  "careerStatsMarines": {
+    "games": 350,
+    "plateAppearances": 1141,
+    "atBats": 1003,
+    "hits": 261,
+    "homeRuns": 11,
+    "rbi": 88,
+    "stolenBases": 39,
+    "battingAverage": "0.260"
+  },
+  "seasonStats": {},
+  "japanSeries": [],
+  "cheers": {
+    "type": "player_cheer",
+    "variants": [
+      {
+        "period": "",
+        "name": "",
+        "lyrics": "",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "links": {
+    "officialEventPage": "https://www.marines.co.jp/event/2026/specialgame/"
+  },
+  "sources": [
+    {
+      "label": "NPB 個人年度別成績（ロッテ所属年を集計）",
+      "url": "https://npb.jp/bis/players/91295115.html"
+    },
+    {
+      "label": "マリーンズ 歴代所属選手 2005–2009",
+      "url": "https://www.marines.co.jp/corp/past_roster/2005.html"
+    },
+    {
+      "label": "マリーンズ スペシャルゲーム2026（2026-11-21確認）",
+      "url": "https://www.marines.co.jp/event/2026/specialgame/"
+    }
+  ]
+}
