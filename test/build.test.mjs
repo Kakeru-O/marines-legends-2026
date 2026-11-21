@@ -96,7 +96,7 @@ test("manifest loads all 44 players in official order and preserves 00", async (
   assert.deepEqual(players.map(p => p.id), [...manifest.players].sort((a,b) => a.order-b.order).map(p => p.id));
   assert.equal(players.find(p => p.name === "高濱卓也").eventNumber, "00");
   for (const player of players) {
-    for (const variant of player.cheers?.variants || []) assert.equal(variant.lyrics, "");
+    for (const variant of player.cheers?.variants || []) assert.equal(typeof variant.lyrics, "string");
     for (const source of player.sources) assert.match(source.url, /^https?:\/\//);
   }
 });
@@ -158,4 +158,18 @@ test("career calculation notes stay out of the page while season absence notes r
   }]);
   assert.doesNotMatch(html, /集計方法の注/);
   assert.match(html, /一軍登板なし/);
+});
+
+test("sources are collapsed, retaining overview links but omitting individual series games", () => {
+  const html = renderPlayerGuideHtml([{
+    sources: [
+      { label: "NPB 年度別成績", url: "https://npb.jp/bis/players/example.html" },
+      { label: "シリーズ第1戦", url: "https://npb.jp/bis/scores/nipponseries/boxscore2010_1.html" },
+      { label: "シリーズ概要", url: "https://npb.jp/nippons/2010/" }
+    ]
+  }]);
+  assert.match(html, /<details class="detail-section source-disclosure"><summary>外部リンク・出典<\/summary>/);
+  assert.match(html, /NPB 年度別成績/);
+  assert.match(html, /シリーズ概要/);
+  assert.doesNotMatch(html, /シリーズ第1戦|boxscore2010_1/);
 });

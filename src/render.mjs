@@ -89,9 +89,10 @@ function cheerSection(player) {
 function sourceSection(player) {
   const items = [];
   if (player.links?.wikipedia) items.push({ label: "Wikipedia", url: player.links.wikipedia });
-  items.push(...(player.sources || []).filter((source) => source.url !== player.links?.officialEventPage));
+  items.push(...(player.sources || []).filter((source) => source.url !== player.links?.officialEventPage
+    && !/\/nipponseries\/boxscore\d{4}_\d+\.html(?:[?#]|$)/.test(source.url)));
   const links = linkList(items);
-  return links ? `<section class="detail-section"><h4>外部リンク・出典</h4>${links}</section>` : "";
+  return links ? `<details class="detail-section source-disclosure"><summary>外部リンク・出典</summary>${links}</details>` : "";
 }
 
 function playerEntry(player) {

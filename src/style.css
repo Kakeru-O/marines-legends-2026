@@ -90,17 +90,19 @@ main { padding: 26px 0 64px; }
 .series-list p { margin: 4px 0 0; color: var(--muted); font-size: 0.73rem; }
 .cheer-box { padding: 15px; background: var(--ink); color: white; }
 .cheer-box > p { margin: 0; color: #d0cdc6; font-size: 0.77rem; }
-.link-list { display: grid; gap: 6px; margin-top: 10px; }
-.link-list a { display: flex; align-items: center; justify-content: space-between; min-height: 46px; padding: 9px 11px; background: white; border: 1px solid var(--line); color: var(--ink); font-size: 0.75rem; font-weight: 700; text-decoration: none; }
-.link-list a::after { content: "↗"; margin-left: 8px; color: var(--red); font-size: 1rem; }
-.cheer-box .link-list a { background: #292929; border-color: #444; color: white; }
+.link-list { display: flex; flex-wrap: wrap; gap: 2px 18px; margin-top: 8px; }
+.link-list a { display: inline-flex; align-items: center; min-height: 44px; padding: 4px 0; color: var(--muted); font-size: 0.875rem; font-weight: 400; text-decoration: underline; text-underline-offset: 3px; }
+.cheer-box .link-list a { color: #d0cdc6; }
+.source-disclosure { padding-top: 12px; border-top: 1px solid var(--line); }
+.source-disclosure > summary { display: list-item; min-height: 44px; padding-block: 10px; color: var(--muted); font-size: 0.875rem; cursor: pointer; }
+.source-disclosure > .link-list { margin-top: 0; }
 .empty-state { padding: 36px 20px; background: white; text-align: center; }
 .empty-state p { margin: 0 0 14px; color: var(--muted); }
 
 footer { display: flex; justify-content: space-between; gap: 16px; padding: 25px 0 36px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.6rem; letter-spacing: 0.06em; }
 footer p { margin: 0; }
 button:focus-visible, input:focus-visible, summary:focus-visible, a:focus-visible { outline: 3px solid #1686d9; outline-offset: 3px; }
-@media (hover: hover) { .player-summary:hover { background: #fcfbf8; } .link-list a:hover { border-color: var(--ink); } }
+@media (hover: hover) { .player-summary:hover { background: #fcfbf8; } .link-list a:hover { color: var(--ink); } .cheer-box .link-list a:hover { color: white; } }
 
 @media (min-width: 600px) {
   .site-header__inner { padding: 54px 0 46px; }
