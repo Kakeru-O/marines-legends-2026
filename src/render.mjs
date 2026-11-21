@@ -71,7 +71,7 @@ function cheerSection(player) {
     const youtubeUrl = safeUrl(variant.youtubeUrl);
     if (!lyrics && !youtubeUrl) return "";
     return `<div class="cheer-variant">
-      <div class="cheer-variant__heading"><strong>${escapeHtml(variant.name || "応援歌")}</strong>${variant.period ? `<span>${escapeHtml(variant.period)}</span>` : ""}</div>
+      ${variant.period ? `<div class="cheer-variant__heading"><span>${escapeHtml(variant.period)}</span></div>` : ""}
       ${variant.usageNote ? `<p class="cheer-variant__note">${escapeHtml(variant.usageNote)}</p>` : ""}
       ${lyrics ? `<p class="cheer-lyrics">${escapeHtml(lyrics)}</p>` : ""}
       ${youtubeUrl ? linkList([{ label: "YouTubeで応援歌を見る", url: youtubeUrl }]) : ""}
