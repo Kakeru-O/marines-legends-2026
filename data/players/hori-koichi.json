@@ -76,25 +76,11 @@
     ],
     "variants": [
       {
-        "period": "19??–1990",
-        "name": "初期応援歌",
-        "usageNote": "初期の応援歌",
-        "lyrics": "",
-        "youtubeUrl": ""
-      },
-      {
-        "period": "1991–1999頃",
-        "name": "関東版 / 関西版",
-        "usageNote": "地域別に異なる歌詞の記録あり",
-        "lyrics": "",
-        "youtubeUrl": ""
-      },
-      {
         "period": "2000頃–2010",
-        "name": "堀幸一系応援",
-        "usageNote": "2005年シーズンを含む晩年に使用",
-        "lyrics": "",
-        "youtubeUrl": ""
+        "name": "",
+        "usageNote": "",
+        "lyrics": "≪（演奏）オイ！≫（×3）\nオイ！ オイ！ オイオイ！\nかっとばせー 幸一！",
+        "youtubeUrl": "https://youtu.be/jUvSLeyHcwE?si=2MUejU9UJqt8xhQd"
       }
     ]
   },

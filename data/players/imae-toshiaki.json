@@ -80,10 +80,22 @@
     "type": "player_cheer",
     "variants": [
       {
-        "period": "",
+        "period": "2003-2009",
         "name": "",
-        "lyrics": "",
+        "lyrics": "[前奏] オオオ… 今江！\n（演奏）オイ！ （演奏）今江！\nオオオ… 熱くなれ今江\nかっとばせー 今江！",
         "youtubeUrl": ""
+      },
+      {
+        "period": "2010",
+        "name": "",
+        "lyrics": " オオオ… 今江！\n≪（演奏）オイ！≫（×3）（演奏）\nオオオ… 飛ばそうぜ今江 オオオ… さらなる未来へ",
+        "youtubeUrl": "https://youtu.be/30r8pn1v1pM?si=lLZXJKxhu5acJ55r"
+      },
+      {
+        "period": "2011-2015",
+        "name": "",
+        "lyrics": "[前奏] ≪オイ！≫（×28）オー 今江！\n≪更なる未来 目指して突き進め 頂点狙え 今江敏晃≫（×2）\n≪今江！≫（×4）",
+        "youtubeUrl": "https://youtu.be/py_abgAw_Po?si=P6KRSlXmKsOo4jtf"
       }
     ]
   },

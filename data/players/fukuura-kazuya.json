@@ -79,10 +79,22 @@
     "type": "player_cheer",
     "variants": [
       {
-        "period": "",
+        "period": "2003-2009",
         "name": "",
-        "lyrics": "",
+        "lyrics": "[前奏] （演奏）オイ！\n俺らは叫ぶ 打て福浦（打て福浦）\n声援受けて 打て福浦（打て福浦）\n勝利をつかめ",
+        "youtubeUrl": "https://youtu.be/I0wX2cyvqc0?si=HdLGx7TCCVJ7v-UG"
+      },
+      {
+        "period": "2010",
+        "name": "",
+        "lyrics": "[前奏] （演奏）オイ！\n不屈の闘志 打て福浦（打て福浦）\n頼れる男 打て福浦（打て福浦）\n一発かませ",
         "youtubeUrl": ""
+      },
+      {
+        "period": "2011-2019",
+        "name": "",
+        "lyrics": "[前奏] オオオ… 福浦！\n俺達の福浦 一打に全て込めて\n不屈の闘志を見せてくれ 千葉の誇り胸に\n≪（ﾄﾞﾝ ﾄﾞﾄﾞﾝ ﾄﾞﾄﾞﾝ）福浦ヒット！≫（×4）",
+        "youtubeUrl": "https://youtu.be/3qq9Ti4qSJg?si=X9MFSNdphg_4d0v-"
       }
     ]
   },

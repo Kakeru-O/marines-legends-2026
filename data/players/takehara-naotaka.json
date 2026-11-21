@@ -56,10 +56,16 @@
     "type": "player_cheer",
     "variants": [
       {
-        "period": "",
+        "period": "2006-2009",
         "name": "",
-        "lyrics": "",
-        "youtubeUrl": ""
+        "lyrics": "≪ラララ… 竹原≫（×3）ララ 魂を込めて振りぬけ",
+        "youtubeUrl": "https://youtu.be/CaK_voyoAbA?si=3XJaMIjNPYoux3en"
+      },
+      {
+        "period": "2010-2011",
+        "name": "",
+        "lyrics": "[前奏] 期待の大砲 今こそヒーロー 竹原 竹原 さあ行こうぜ\n≪ララ竹原 その雄々しさに 強く伸びるアーチ 勝ち取れ竹原≫（×2）\n≪（ﾄﾞﾝ ﾄﾞﾄﾞﾝ ﾄﾞﾄﾞﾝ）竹原ホームラン！≫（×4）",
+        "youtubeUrl": "https://youtu.be/MFcoZ42wnak?t=276&si=AGYBEH1VNKVPO-Vx"
       }
     ]
   },

@@ -55,10 +55,16 @@
     "type": "player_cheer",
     "variants": [
       {
-        "period": "",
+        "period": "2007-2009",
         "name": "",
-        "lyrics": "",
-        "youtubeUrl": ""
+        "lyrics": "≪オオオ… Let’s Go 青野≫（×4） ≪（ﾄﾞﾝ ﾄﾞﾝ ﾄﾞﾄﾞﾝ）青野ヒット！≫（×4）",
+        "youtubeUrl": "https://youtu.be/UTcDWztlXT8?si=P9DpQFRQBs6ZQWIu"
+      },
+      {
+        "period": "2010-2013",
+        "name": "",
+        "lyrics": "お前の一振りで 打線に火をつけろ 爆発だ桜島\n 打て 青野毅 かっとばせー 青野！",
+        "youtubeUrl": "https://youtu.be/r_f1ZzCVnrs?t=361&si=711zOIwhqXvqjVMS"
       }
     ]
   },
