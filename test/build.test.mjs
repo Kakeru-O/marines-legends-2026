@@ -122,9 +122,12 @@ test("manifest rejects missing, unlisted, duplicate and inconsistent data", () =
 });
 
 test("empty cheer fields disappear and populated YouTube or lyrics render safely", () => {
-  const player = { cheers: { variants: [{ name: "空の応援歌", lyrics: "", youtubeUrl: "" }] } };
+  const player = { cheers: { type: "player_cheer", variants: [{ name: "空の応援歌", lyrics: "", youtubeUrl: "" }] } };
   const empty = renderPlayerGuideHtml([player]);
-  assert.doesNotMatch(empty, /<h4>応援歌|cheer-lyrics|cheer-variant|youtube/);
+  assert.match(empty, /<h4>応援歌<\/h4>/);
+  assert.match(empty, /応援歌・動画は準備中です。/);
+  assert.doesNotMatch(empty, /cheer-lyrics|cheer-variant|youtube/);
+  assert.doesNotMatch(renderPlayerGuideHtml([{ cheers: { type: "none_or_not_applicable" } }]), /<h4>応援歌/);
   player.cheers.variants[0].youtubeUrl = "https://www.youtube.com/watch?v=example";
   assert.match(renderPlayerGuideHtml([player]), /href="https:\/\/www.youtube.com\/watch\?v=example"/);
   assert.doesNotMatch(renderPlayerGuideHtml([player]), /cheer-lyrics/);
@@ -146,4 +149,13 @@ test("real roster filters combine TEAM, all four positions, name and reading", a
   assert.equal(filter(player.eventTeam, player.position, player.name)[0].id, player.id);
   assert.equal(filter(player.eventTeam, player.position, player.reading)[0].id, player.id);
   assert.equal(filter("ALL", "すべて", "該当しない選手").length, 0);
+});
+
+test("career calculation notes stay out of the page while season absence notes remain", () => {
+  const html = renderPlayerGuideHtml([{
+    careerStatsMarines: { games: 1, note: "集計方法の注" },
+    seasonStats: { 2005: { status: "no_first_team_appearance", note: "一軍登板なし" } }
+  }]);
+  assert.doesNotMatch(html, /集計方法の注/);
+  assert.match(html, /一軍登板なし/);
 });

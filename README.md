@@ -50,3 +50,5 @@ data/
 4. 成功後、`https://kakeru-o.github.io/marines-legends-2026/` を開きます。
 
 PrivateリポジトリのPages利用可否は契約プランに依存します。利用できない場合はプランまたは公開方針をユーザー側で判断してください。リポジトリのvisibilityはこの作業では変更しません。[GitHub公式: custom workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+
+野手の詳細には、歌詞・動画が未入力でも「応援歌」枠と「応援歌・動画は準備中です。」を表示します。入力後は同じ場所に歌詞とYouTubeリンクを表示します。通算成績の集計方法の注は画面に表示せず、調査記録・JSONに保持します。

@@ -20,10 +20,10 @@ function representativeAchievement(player) {
   return "スペシャルゲーム2026 出場";
 }
 
-function statsGrid(stats) {
+function statsGrid(stats, { showNote = true } = {}) {
   const entries = Object.entries(stats || {}).filter(([key]) => !["status", "note"].includes(key));
-  if (!entries.length) return stats?.note ? `<p class="detail-note">${escapeHtml(stats.note)}</p>` : "";
-  return `<dl class="stats-grid">${entries.map(([key, value]) => `<div class="stat"><dt>${escapeHtml(statLabels[key] || key)}</dt><dd>${escapeHtml(value)}</dd></div>`).join("")}</dl>${stats.note ? `<p class="detail-note">${escapeHtml(stats.note)}</p>` : ""}`;
+  if (!entries.length) return showNote && stats?.note ? `<p class="detail-note">${escapeHtml(stats.note)}</p>` : "";
+  return `<dl class="stats-grid">${entries.map(([key, value]) => `<div class="stat"><dt>${escapeHtml(statLabels[key] || key)}</dt><dd>${escapeHtml(value)}</dd></div>`).join("")}</dl>${showNote && stats.note ? `<p class="detail-note">${escapeHtml(stats.note)}</p>` : ""}`;
 }
 
 function jerseyNumbers(player) {
@@ -78,7 +78,11 @@ function cheerSection(player) {
     </div>`;
   }).join("");
   const references = linkList(player.cheers.references || []);
-  if (!variants && !references) return "";
+  if (!variants && !references) {
+    return player.cheers.type === "player_cheer"
+      ? '<section class="detail-section"><h4>応援歌</h4><div class="cheer-box"><p>応援歌・動画は準備中です。</p></div></section>'
+      : "";
+  }
   return `<section class="detail-section"><h4>応援歌</h4><div class="cheer-box">${player.cheers.note ? `<p>${escapeHtml(player.cheers.note)}</p>` : ""}${variants}${references}</div></section>`;
 }
 
@@ -111,7 +115,7 @@ function playerEntry(player) {
         <div><dt>チーム</dt><dd>TEAM ${escapeHtml(player.eventTeam)}</dd></div>
       </dl>
       ${jerseyNumbers(player)}
-      <section class="detail-section"><h4>ロッテ在籍時 通算成績</h4>${statsGrid(player.careerStatsMarines)}</section>
+      <section class="detail-section"><h4>ロッテ在籍時 通算成績</h4>${statsGrid(player.careerStatsMarines, { showNote: false })}</section>
       ${seasonStats(player)}
       <section class="detail-section"><h4>日本シリーズ</h4>${japanSeries(player)}</section>
       ${cheerSection(player)}
