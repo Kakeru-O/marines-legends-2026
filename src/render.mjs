@@ -64,17 +64,42 @@ function linkList(items) {
   return `<ul class="link-list">${unique.map((item) => `<li><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.label)}</a></li>`).join("")}</ul>`;
 }
 
+function youtubeEmbedUrl(value) {
+  try {
+    const url = new URL(value);
+    if (!["https:", "http:"].includes(url.protocol)) return "";
+    const host = url.hostname.toLowerCase();
+    let id;
+    if (host === "youtu.be") id = url.pathname.split("/")[1];
+    else if (["youtube.com", "www.youtube.com", "m.youtube.com", "youtube-nocookie.com", "www.youtube-nocookie.com"].includes(host)) {
+      id = url.pathname === "/watch" ? url.searchParams.get("v") : url.pathname.match(/^\/(?:embed|shorts|live)\/([^/]+)/)?.[1];
+    }
+    if (!/^[a-zA-Z0-9_-]{11}$/.test(id || "")) return "";
+    const embed = new URL(`https://www.youtube-nocookie.com/embed/${id}`);
+    embed.searchParams.set("playsinline", "1");
+    const time = url.searchParams.get("start") || url.searchParams.get("t") || "";
+    if (/^\d+$/.test(time)) embed.searchParams.set("start", time);
+    else {
+      const parts = time.match(/^(?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s)?$/);
+      if (parts && time) embed.searchParams.set("start", String(Number(parts[1] || 0) * 3600 + Number(parts[2] || 0) * 60 + Number(parts[3] || 0)));
+    }
+    return embed.href;
+  } catch { return ""; }
+}
+
 function cheerSection(player) {
   if (!player.cheers) return "";
   const variants = (player.cheers.variants || []).map((variant) => {
     const lyrics = String(variant.lyrics || "").trim();
     const youtubeUrl = safeUrl(variant.youtubeUrl);
+    const embedUrl = youtubeEmbedUrl(youtubeUrl);
     if (!lyrics && !youtubeUrl) return "";
     return `<div class="cheer-variant">
       ${variant.period ? `<div class="cheer-variant__heading"><span>${escapeHtml(variant.period)}</span></div>` : ""}
       ${variant.usageNote ? `<p class="cheer-variant__note">${escapeHtml(variant.usageNote)}</p>` : ""}
       ${lyrics ? `<p class="cheer-lyrics">${escapeHtml(lyrics)}</p>` : ""}
-      ${youtubeUrl ? linkList([{ label: "YouTubeで応援歌を見る", url: youtubeUrl }]) : ""}
+      ${embedUrl ? `<iframe class="cheer-video" src="${escapeHtml(embedUrl)}" title="${escapeHtml(player.name || "選手")}の応援歌動画" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>` : ""}
+      ${youtubeUrl ? linkList([{ label: "YouTubeで開く", url: youtubeUrl }]) : ""}
     </div>`;
   }).join("");
   const references = linkList(player.cheers.references || []);

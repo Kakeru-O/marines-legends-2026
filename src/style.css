@@ -154,3 +154,6 @@ footer { flex-wrap: wrap; font-size: 0.875rem; }
 }
 
 .filter-button[aria-pressed="true"] { text-decoration: underline; text-underline-offset: 4px; }
+
+.cheer-video { display: block; width: 100%; min-height: 200px; aspect-ratio: 16 / 9; margin-top: 12px; border: 0; background: #000; }
+@media print { .cheer-video { display: none; } }

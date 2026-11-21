@@ -128,8 +128,8 @@ test("empty cheer fields disappear and populated YouTube or lyrics render safely
   assert.match(empty, /応援歌・動画は準備中です。/);
   assert.doesNotMatch(empty, /cheer-lyrics|cheer-variant|youtube/);
   assert.doesNotMatch(renderPlayerGuideHtml([{ cheers: { type: "none_or_not_applicable" } }]), /<h4>応援歌/);
-  player.cheers.variants[0].youtubeUrl = "https://www.youtube.com/watch?v=example";
-  assert.match(renderPlayerGuideHtml([player]), /href="https:\/\/www.youtube.com\/watch\?v=example"/);
+  player.cheers.variants[0].youtubeUrl = "https://www.youtube.com/watch?v=M7lc1UVf-VE";
+  assert.match(renderPlayerGuideHtml([player]), /href="https:\/\/www.youtube.com\/watch\?v=M7lc1UVf-VE"/);
   assert.doesNotMatch(renderPlayerGuideHtml([player]), /cheer-lyrics/);
   player.cheers.variants[0] = { lyrics: "<script>テスト</script>\n次の行", youtubeUrl: "javascript:alert(1)" };
   const populated = renderPlayerGuideHtml([player]);
@@ -172,4 +172,25 @@ test("sources are collapsed, retaining overview links but omitting individual se
   assert.match(html, /NPB 年度別成績/);
   assert.match(html, /シリーズ概要/);
   assert.doesNotMatch(html, /シリーズ第1戦|boxscore2010_1/);
+});
+
+test("YouTube embeds accept video URL forms and reject other hosts and invalid IDs", () => {
+  const render = (youtubeUrl) => renderPlayerGuideHtml([{ name: "テスト", cheers: { variants: [{ youtubeUrl }] } }]);
+  for (const url of [
+    "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+    "https://youtu.be/M7lc1UVf-VE?si=example",
+    "https://m.youtube.com/shorts/M7lc1UVf-VE",
+    "https://www.youtube.com/embed/M7lc1UVf-VE"
+  ]) {
+    const html = render(url);
+    assert.match(html, /<iframe class="cheer-video" src="https:\/\/www.youtube-nocookie.com\/embed\/M7lc1UVf-VE\?playsinline=1"/);
+    assert.match(html, /loading="lazy"/);
+    assert.match(html, /referrerpolicy="strict-origin-when-cross-origin"/);
+    assert.match(html, /allowfullscreen/);
+    assert.doesNotMatch(html, /autoplay=1/);
+  }
+  assert.match(render("https://youtu.be/M7lc1UVf-VE?t=1m30s"), /start=90/);
+  for (const url of ["", "javascript:alert(1)", "https://youtube.com.evil.example/watch?v=M7lc1UVf-VE", "https://youtu.be/invalid", "https://example.com/M7lc1UVf-VE"]) {
+    assert.doesNotMatch(render(url), /<iframe/);
+  }
 });
